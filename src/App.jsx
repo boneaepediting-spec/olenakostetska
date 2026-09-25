@@ -480,6 +480,24 @@ export default function App() {
         </div>
       </div>
 
+      <section className="block wrap" id="services" style={{ background: 'linear-gradient(180deg,var(--bg-soft),transparent 55%)' }}>
+        <div className="sec-head"><div className="sec-eyebrow" style={{ margin: 0 }}>{d.servEye}</div></div>
+        <Rich as="h2" className="sec-title" html={d.servTitle} />
+        <div className="cards">
+          {d.services.map((service, i) => (
+            <div className={`card ${service.feat ? 'featured' : ''}`} key={i}>
+              <div className="card-top"><span className="card-tag">{String(i + 1).padStart(2, '0')}</span></div>
+              <h3>{service.title}</h3>
+              <p>{service.desc}</p>
+              <div className="price-row"><div className="price">{service.prices.pl} zł / {service.prices.uk.toLocaleString('uk-UA')} ₴ / {service.prices.en} €</div></div>
+              <div className="service-details"><span>{service.duration}</span><span>{service.format}</span></div>
+              <a href={CONFIG.instagramUrl} target="_blank" rel="noopener noreferrer" className={`btn ${service.feat ? 'btn-primary' : 'btn-ghost'}`}>{d.cta1}</a>
+            </div>
+          ))}
+        </div>
+        <p className="payment-note">{d.payment}</p>
+      </section>
+
       <section className="block wrap" id="about">
         <div className="about">
           <div className="frame"><img src={CONFIG.aboutPhoto} alt="Olena Kostetska" /></div>
@@ -558,24 +576,6 @@ export default function App() {
             <div className="value" key={i}><div className="vn">0{i + 1}</div><h4>{v.t}</h4><p>{v.p}</p></div>
           ))}
         </div>
-      </section>
-
-      <section className="block wrap" id="services" style={{ background: 'linear-gradient(180deg,var(--pearl2),transparent 55%)' }}>
-        <div className="sec-head"><div className="sec-eyebrow" style={{ margin: 0 }}>{d.servEye}</div></div>
-        <Rich as="h2" className="sec-title" html={d.servTitle} />
-        <div className="cards">
-          {d.services.map((service, i) => (
-            <div className={`card ${service.feat ? 'featured' : ''}`} key={i}>
-              <div className="card-top"><span className="card-tag">{String(i + 1).padStart(2, '0')}</span></div>
-              <h3>{service.title}</h3>
-              <p>{service.desc}</p>
-              <div className="price-row"><div className="price">{service.prices.pl} zł / {service.prices.uk.toLocaleString('uk-UA')} ₴ / {service.prices.en} €</div></div>
-              <div className="service-details"><span>{service.duration}</span><span>{service.format}</span></div>
-              <a href={CONFIG.instagramUrl} target="_blank" rel="noopener noreferrer" className={`btn ${service.feat ? 'btn-primary' : 'btn-ghost'}`}>{d.cta1}</a>
-            </div>
-          ))}
-        </div>
-        <p className="payment-note">{d.payment}</p>
       </section>
 
       <section className="block wrap" id="includes">
