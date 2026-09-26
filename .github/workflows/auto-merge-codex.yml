@@ -16,8 +16,10 @@ jobs:
       contains(github.event.pull_request.labels.*.name, 'codex')
     runs-on: ubuntu-latest
     steps:
-      - name: Enable squash auto-merge
+      - name: Enable auto-merge
         env:
           GH_TOKEN: ${{ github.token }}
           PR_URL: ${{ github.event.pull_request.html_url }}
-        run: gh pr merge "$PR_URL" --squash --auto
+        # Preserve branch ancestry so follow-up Codex changes do not conflict
+        # with a new squash commit created on main.
+        run: gh pr merge "$PR_URL" --merge --auto
