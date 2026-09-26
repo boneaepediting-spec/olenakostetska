@@ -5,6 +5,17 @@
 [build.environment]
   NODE_VERSION = "20"
 
+# Не кешувати HTML, щоб текстові правки з'являлися одразу після деплою.
+[[headers]]
+  for = "/"
+  [headers.values]
+    Cache-Control = "no-cache, no-store, must-revalidate"
+
+[[headers]]
+  for = "/index.html"
+  [headers.values]
+    Cache-Control = "no-cache, no-store, must-revalidate"
+
 # SPA fallback — усі маршрути ведуть на index.html
 [[redirects]]
   from = "/*"

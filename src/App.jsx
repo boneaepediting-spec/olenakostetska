@@ -27,22 +27,24 @@ const DATA={
   achIntro:"Почала у 2014-му — бронза вже на дебюті. Після перерви повернулася сильнішою і виступаю у категорії Fit Model на турнірах Польщі та Італії.",
   titles:[{i:"🏆",t:"Абсолютна чемпіонка Польщі — Open Fit Model"},{i:"🥇",t:"Дворазова чемпіонка Masters"},{i:"🥈",t:"Срібло EuroMasters (Італія), Masters 35+ та 40+"},{i:"🏅",t:"TOP-5 Flex Weekend Pro Qualifier, Мілан"}],
   timeline:[{y:"2014",ev:[{p:"Чемпіонат України (WBPF)",r:"🥉 Бронза — дебютний старт"}]},{y:"2025",ev:[{p:"NPC Poland",r:"🏆 Overall Open Fit Model · 2×🥇 Masters · 🥈 Open Class B"},{p:"EuroMasters (Італія)",r:"🥈 Masters 35+ · 🥈 Masters 40+"}]},{y:"2026",ev:[{p:"League of Champions Pro Qualifier",r:"2×🥇 Masters · 🥈 Open Class B"},{p:"Natural & Regional Qualifier",r:"Призові місця у Masters та Novice"},{p:"Flex Weekend Pro Qualifier (Мілан)",r:"🏅 TOP-5 Fit Model Open Class B"}]}],
+  galleryEye:"Моменти зі сцени",galleryTitle:'Сила, праця та <b>результат</b>',gallery:["Перемога на European Festival","NPC Poland — серед найкращих атлеток","Flex Weekend Pro Qualifier · Мілан","EuroMasters — міжнародна сцена"],
   procEye:"🧭 Як проходить робота",procTitle:"Як проходить <b>онлайн-ведення</b>",
   steps:[{"h": "Оплата й анкета", "p": "Після оплати онлайн-ведення заповнюєш стартову анкету."}, {"h": "Аналіз", "p": "Вивчаю цілі, досвід, графік і відповіді в анкеті."}, {"h": "Індивідуальний план", "p": "Готую тренування та рекомендації з харчування на 4 тижні."}, {"h": "Старт роботи", "p": "З узгодженої дати працюєш за планом із відповідною прогресією."}, {"h": "Щотижневий звіт", "p": "Аналізую прогрес і відповідаю на запитання."}, {"h": "Коригування й підсумок", "p": "За потреби коригую план; після 4 тижнів підбиваємо підсумки."}],
   resTitle:"Прогрес у власному темпі",
   results:["зменшення об’ємів","зниження ваги","підтягнуте тіло","краща форма сідниць і ніг","покращення постави","більше енергії","контроль харчування","менше набряків","дисципліна і режим","впевненість у собі"],
-  whoEye:"🎯 Для кого",whoTitle:'З ким я <b>працюю</b>',
+  whoEye:"🎯 Твої цілі",whoTitle:'Допоможу тобі <b>досягти бажаного</b>',
   goals:["схуднути","підтягнути тіло","покращити форму сідниць, ніг, спини та плечей","навчитися правильно харчуватися","повернути впевненість у собі","підготуватися до фотосесії, відпустки або змагань"],
   valEye:"💜 Мої цінності",valTitle:'Підхід, у який я <b>вірю</b>',
   values:[{t:"Дисципліна",p:"Саме регулярні дії створюють результат."},{t:"Здоров’я",p:"Форма не повинна будуватися ціною виснаження."},{t:"Стабільність",p:"Короткі ривки не дають довготривалого результату."},{t:"Любов до себе",p:"Зміни починаються з турботи про себе, а не з ненависті до тіла."},{t:"Тривалий результат",p:"Моя мета — навчити тебе зберігати форму, а не лише її досягти."}],
   servEye:"✨ Послуги",servTitle:'Обери свій <b>формат</b>',
   services:[{"title": "Консультація", "desc": "Визначимо цілі, розберемо активність, тренування, харчування та суплементацію. Відповім на запитання й дам подальший план дій. Персональні плани тренувань і харчування не входять.", "duration": "до 60 хв", "format": "Онлайн / офлайн", "prices": {"pl": 100, "uk": 1200, "en": 25}, "feat": false}, {"title": "Персональне тренування", "desc": "Заняття відповідно до цілі й рівня: індивідуальні вправи й навантаження, постановка та контроль техніки, виправлення помилок і рекомендації на майбутнє.", "duration": "до 60 хв", "format": "Онлайн з будь-якої країни / офлайн у Вроцлаві", "prices": {"pl": 150, "uk": 1800, "en": 35}, "feat": false}, {"title": "Індивідуальне онлайн-ведення", "desc": "Персональна робота протягом 4 тижнів: програма тренувань, харчування, суплементація в межах компетенції тренера, щотижневий звіт і коригування за результатами. Персональні заняття оплачуються окремо.", "duration": "4 тижні", "format": "Онлайн", "prices": {"pl": 400, "uk": 4700, "en": 90}, "feat": true}],
+  serviceCtas:["Записатися на консультацію","Записатися на тренування","Почати онлайн-ведення"],otherCurrencies:"Інші валюти",
   payment:"Усі послуги оплачуються до початку роботи. Для консультації та тренування бронювання підтверджується після оплати; онлайн-ведення починається з узгодженої дати після анкети й підготовки плану.",
   credEye:"🎓 Освіта та сертифікація",credTitle:'Знання, яким можна <b>довіряти</b>',
   credIntro:"Постійно вчуся, щоб давати не поради з інтернету, а перевірені знання.",
   creds:[{y:"2025",t:"Сертифікований фітнес-тренер",d:"Fitness Trainer — ExpertX"},{y:"2026",t:"Mini MBA",d:"Practical Nutrition & Health Coaching, Open European Academy of Economics & Politics (Прага)"},{y:"150 год",t:"Дієтологія та нутриціологія",d:"Basic Dietetics and Nutrition — раціональне харчування та корекція маси тіла"},{y:"",t:"Спеціалізації",d:"Спортивне харчування, психологія харчової поведінки, харчування жінок та дітей"}],
   topics:["Спортивне харчування","Психологія харчової поведінки","Харчування жінок","Інтервальне голодування","Кето та без глютену","Робота зі щитоподібною залозою"],
-  ctaTitle:"Почнемо з <b>розмови</b>?",ctaText:"Напиши мені, що саме тебе цікавить — обговоримо деталі та підберемо формат роботи.",ctaBtn:"Написати в Instagram",
+  ctaTitle:"Почнемо з <b>розмови</b>?",ctaText:"Напиши мені, що саме тебе цікавить — обговоримо деталі та підберемо формат роботи.",ctaBtn:"Написати в Instagram",whatsappBtn:"Написати у WhatsApp",callBtn:"Зателефонувати",
   faqEye:"Питання",faqTitle:'Часті <b>запитання</b>',copy:"© 2026 Olena Kostetska · Wrocław",
   faq:[{"q": "Чи підійде новачкам?", "a": "Так. Формат роботи й навантаження підбираю з урахуванням цілі, рівня підготовки та графіка."}, {"q": "Як відбувається оплата?", "a": "Усі послуги оплачуються до початку роботи. Для консультації та тренування спочатку узгоджуємо час, надсилаю реквізити, а після оплати підтверджую бронювання. Для онлайн-ведення після оплати заповнюєш анкету; з узгодженої дати починаються 4 тижні роботи. PLN: польський переказ або BLIK; UAH: українська картка або рахунок; EUR: переказ на EUR-рахунок."}, {"q": "Чи входять персональні тренування в онлайн-ведення?", "a": "Ні. За бажанням їх можна оплатити окремо: 150 zł / 1 800 ₴ / 35 € за заняття."}, {"q": "Чи буде нова програма щотижня?", "a": "Не обов’язково. Наприклад, тренування A / B / C можуть повторюватися з відповідною прогресією. Коригую програму за потреби."}, {"q": "Чи можна тренуватися без залу?", "a": "Так. Обговоримо твої умови й доступне обладнання та підберемо відповідний формат."}],
  },
@@ -64,6 +66,7 @@ const DATA={
   
   titles:[{i:"🏆",t:"Absolutna mistrzyni Polski — Open Fit Model"},{i:"🥇",t:"Dwukrotna mistrzyni Masters"},{i:"🥈",t:"Srebro EuroMasters (Włochy), Masters 35+ i 40+"},{i:"🏅",t:"TOP-5 Flex Weekend Pro Qualifier, Mediolan"}],
   timeline:[{y:"2014",ev:[{p:"Mistrzostwa Ukrainy (WBPF)",r:"🥉 Brąz — debiut"}]},{y:"2025",ev:[{p:"NPC Poland",r:"🏆 Overall Open Fit Model · 2×🥇 Masters · 🥈 Open Class B"},{p:"EuroMasters (Włochy)",r:"🥈 Masters 35+ · 🥈 Masters 40+"}]},{y:"2026",ev:[{p:"League of Champions Pro Qualifier",r:"2×🥇 Masters · 🥈 Open Class B"},{p:"Natural & Regional Qualifier",r:"Miejsca medalowe w Masters i Novice"},{p:"Flex Weekend Pro Qualifier (Mediolan)",r:"🏅 TOP-5 Fit Model Open Class B"}]}],
+  galleryEye:"Chwile ze sceny",galleryTitle:'Siła, praca i <b>rezultat</b>',gallery:["Zwycięstwo na European Festival","NPC Poland — wśród najlepszych zawodniczek","Flex Weekend Pro Qualifier · Mediolan","EuroMasters — scena międzynarodowa"],
   procEye:"🧭 Jak wygląda współpraca",procTitle:"Jak przebiega <b>prowadzenie online</b>",
   steps:[{"h": "Płatność i ankieta", "p": "Po opłaceniu prowadzenia online wypełniasz ankietę startową."}, {"h": "Analiza", "p": "Poznaję Twój cel, doświadczenie, plan dnia i odpowiedzi w ankiecie."}, {"h": "Plan indywidualny", "p": "Przygotowuję treningi i zalecenia żywieniowe na 4 tygodnie."}, {"h": "Start", "p": "Od ustalonej daty pracujesz według planu z odpowiednią progresją."}, {"h": "Cotygodniowy raport", "p": "Analizuję postępy i odpowiadam na pytania."}, {"h": "Korekty i podsumowanie", "p": "W razie potrzeby koryguję plan; po 4 tygodniach podsumowujemy pracę."}],
   resTitle:"Postępy we własnym tempie",
@@ -74,12 +77,13 @@ const DATA={
   values:[{t:"Dyscyplina",p:"To regularne działania tworzą wynik."},{t:"Zdrowie",p:"Forma nie może powstawać kosztem wyczerpania."},{t:"Stabilność",p:"Krótkie zrywy nie dają trwałego efektu."},{t:"Miłość do siebie",p:"Zmiany zaczynają się od troski o siebie, nie od nienawiści do ciała."},{t:"Trwały efekt",p:"Moim celem jest nauczyć Cię utrzymać formę, nie tylko ją osiągnąć."}],
   servEye:"✨ Usługi",servTitle:'Wybierz swój <b>format</b>',
   services:[{"title": "Konsultacja", "desc": "Ustalimy cele, przeanalizujemy aktywność, treningi, odżywianie i suplementację. Odpowiem na pytania i zaproponuję dalsze kroki. Indywidualny plan treningowy i żywieniowy nie są w cenie.", "duration": "do 60 min", "format": "Online / stacjonarnie", "prices": {"pl": 100, "uk": 1200, "en": 25}, "feat": false}, {"title": "Trening personalny", "desc": "Trening dopasowany do celu i poziomu: dobór ćwiczeń i obciążenia, nauka i kontrola techniki, korekta błędów oraz zalecenia na kolejne treningi.", "duration": "do 60 min", "format": "Online z dowolnego kraju / stacjonarnie we Wrocławiu", "prices": {"pl": 150, "uk": 1800, "en": 35}, "feat": false}, {"title": "Indywidualne prowadzenie online", "desc": "4 tygodnie indywidualnej współpracy: plan treningów, żywienie, suplementacja w zakresie kompetencji trenerki, cotygodniowy raport i korekty według postępów. Treningi personalne są płatne osobno.", "duration": "4 tygodnie", "format": "Online", "prices": {"pl": 400, "uk": 4700, "en": 90}, "feat": true}],
+  serviceCtas:["Umów konsultację","Umów trening personalny","Rozpocznij prowadzenie online"],otherCurrencies:"Inne waluty",
   payment:"Wszystkie usługi opłaca się przed rozpoczęciem. Rezerwacja konsultacji i treningu jest potwierdzana po wpłacie; prowadzenie online zaczyna się w ustalonym terminie po ankiecie i przygotowaniu planu.",
   credEye:"🎓 Edukacja i certyfikaty",credTitle:'Wiedza, której możesz <b>zaufać</b>',
   credIntro:"Ciągle się uczę, żeby dawać sprawdzoną wiedzę, a nie porady z internetu.",
   creds:[{y:"2025",t:"Certyfikowana trenerka fitness",d:"Fitness Trainer — ExpertX"},{y:"2026",t:"Mini MBA",d:"Practical Nutrition & Health Coaching, Open European Academy of Economics & Politics (Praga)"},{y:"150 h",t:"Dietetyka i nutrycjologia",d:"Basic Dietetics and Nutrition — racjonalne odżywianie i korekta masy ciała"},{y:"",t:"Specjalizacje",d:"Żywienie sportowe, psychologia odżywiania, żywienie kobiet i dzieci"}],
   topics:["Żywienie sportowe","Psychologia odżywiania","Żywienie kobiet","Post przerywany","Keto i bez glutenu","Praca z tarczycą"],
-  ctaTitle:"Zacznijmy od <b>rozmowy</b>",ctaText:"Napisz mi, co Cię interesuje. Omówimy szczegóły i dobierzemy formę współpracy.",ctaBtn:"Napisz na Instagramie",
+  ctaTitle:"Zacznijmy od <b>rozmowy</b>",ctaText:"Napisz mi, co Cię interesuje. Omówimy szczegóły i dobierzemy formę współpracy.",ctaBtn:"Napisz na Instagramie",whatsappBtn:"Napisz na WhatsAppie",callBtn:"Zadzwoń",
   faqEye:"Pytania",faqTitle:'Najczęstsze <b>pytania</b>',copy:"© 2026 Olena Kostetska · Wrocław",
   faq:[{"q": "Czy to odpowiednie dla początkujących?", "a": "Tak. Formę współpracy i obciążenia dopasowuję do celu, poziomu i grafiku."}, {"q": "Jak wygląda płatność?", "a": "Wszystkie usługi opłaca się przed rozpoczęciem. Przy konsultacji i treningu najpierw ustalamy termin, przesyłam dane do płatności, a po opłaceniu potwierdzam rezerwację. Przy prowadzeniu online po opłaceniu wypełniasz ankietę; 4 tygodnie zaczynają się od ustalonej daty. PLN: polski przelew lub BLIK; UAH: ukraińska karta lub konto; EUR: przelew na konto EUR."}, {"q": "Czy treningi personalne są w cenie prowadzenia?", "a": "Nie. Można je dokupić osobno: 150 zł / 1 800 ₴ / 35 € za sesję."}, {"q": "Czy co tydzień dostanę nowy plan?", "a": "Nie zawsze. Treningi A / B / C mogą się powtarzać z odpowiednią progresją. Plan zmieniam, gdy jest taka potrzeba."}, {"q": "Czy mogę ćwiczyć bez siłowni?", "a": "Tak. Omówimy Twoje warunki i dostępny sprzęt, a następnie dobierzemy format."}],
  },
@@ -101,6 +105,7 @@ const DATA={
   
   titles:[{i:"🏆",t:"Overall Champion of Poland — Open Fit Model"},{i:"🥇",t:"Two-time Masters Champion"},{i:"🥈",t:"Silver at EuroMasters (Italy), Masters 35+ & 40+"},{i:"🏅",t:"TOP-5 Flex Weekend Pro Qualifier, Milan"}],
   timeline:[{y:"2014",ev:[{p:"Ukraine Championship (WBPF)",r:"🥉 Bronze — debut start"}]},{y:"2025",ev:[{p:"NPC Poland",r:"🏆 Overall Open Fit Model · 2×🥇 Masters · 🥈 Open Class B"},{p:"EuroMasters (Italy)",r:"🥈 Masters 35+ · 🥈 Masters 40+"}]},{y:"2026",ev:[{p:"League of Champions Pro Qualifier",r:"2×🥇 Masters · 🥈 Open Class B"},{p:"Natural & Regional Qualifier",r:"Podium places in Masters and Novice"},{p:"Flex Weekend Pro Qualifier (Milan)",r:"🏅 TOP-5 Fit Model Open Class B"}]}],
+  galleryEye:"Stage moments",galleryTitle:'Strength, work and <b>results</b>',gallery:["Winner at the European Festival","NPC Poland — among the leading athletes","Flex Weekend Pro Qualifier · Milan","EuroMasters — the international stage"],
   procEye:"🧭 How working together works",procTitle:"How <b>online coaching works</b>",
   steps:[{"h": "Payment and questionnaire", "p": "After paying for online coaching, you complete a starting questionnaire."}, {"h": "Review", "p": "I review your goals, experience, schedule and answers."}, {"h": "Personal plan", "p": "I prepare four weeks of training and nutrition guidance."}, {"h": "Start", "p": "From the agreed date, you follow the plan with appropriate progression."}, {"h": "Weekly check-in", "p": "I review progress and answer your questions."}, {"h": "Adjust and recap", "p": "I adjust the plan when needed; after four weeks we review the outcome."}],
   resTitle:"Progress at your own pace",
@@ -111,12 +116,13 @@ const DATA={
   values:[{t:"Discipline",p:"Regular actions are what create results."},{t:"Health",p:"Shape should never be built at the cost of exhaustion."},{t:"Stability",p:"Short bursts don't give a lasting result."},{t:"Self-love",p:"Change starts with caring for yourself, not hating your body."},{t:"Lasting result",p:"My goal is to teach you to keep your shape, not just reach it."}],
   servEye:"✨ Services",servTitle:'Choose your <b>format</b>',
   services:[{"title": "Consultation", "desc": "We define your goals, review activity, training, nutrition and supplements, answer your questions and map next steps. A personal training program and meal plan are not included.", "duration": "up to 60 min", "format": "Online / in person", "prices": {"pl": 100, "uk": 1200, "en": 25}, "feat": false}, {"title": "Personal training", "desc": "A session matched to your goal and level: exercises and load selection, technique coaching and correction, plus guidance for future training.", "duration": "up to 60 min", "format": "Online from anywhere / in person in Wrocław", "prices": {"pl": 150, "uk": 1800, "en": 35}, "feat": false}, {"title": "Individual online coaching", "desc": "Four weeks of personal support: training plan, nutrition, supplements within a coach’s scope, weekly check-ins and adjustments based on progress. Personal sessions cost extra.", "duration": "4 weeks", "format": "Online", "prices": {"pl": 400, "uk": 4700, "en": 90}, "feat": true}],
+  serviceCtas:["Book a consultation","Book personal training","Start online coaching"],otherCurrencies:"Other currencies",
   payment:"All services are paid before work begins. Consultation and training bookings are confirmed after payment; online coaching starts on the agreed date after the questionnaire and plan preparation.",
   credEye:"🎓 Education & certification",credTitle:'Knowledge you can <b>trust</b>',
   credIntro:"I keep learning — so you get proven knowledge, not internet advice.",
   creds:[{y:"2025",t:"Certified Fitness Trainer",d:"Fitness Trainer — ExpertX"},{y:"2026",t:"Mini MBA",d:"Practical Nutrition & Health Coaching, Open European Academy of Economics & Politics (Prague)"},{y:"150 h",t:"Dietetics & Nutrition",d:"Basic Dietetics and Nutrition — rational eating and weight adjustment"},{y:"",t:"Specializations",d:"Sports nutrition, eating psychology, nutrition for women and children"}],
   topics:["Sports nutrition","Eating psychology","Women's nutrition","Intermittent fasting","Keto & gluten-free","Thyroid support"],
-  ctaTitle:"Let’s start with <b>a conversation</b>",ctaText:"Message me what you’re interested in. We’ll discuss the details and choose a format that fits your goals.",ctaBtn:"Message me on Instagram",
+  ctaTitle:"Let’s start with <b>a conversation</b>",ctaText:"Message me what you’re interested in. We’ll discuss the details and choose a format that fits your goals.",ctaBtn:"Message me on Instagram",whatsappBtn:"Message on WhatsApp",callBtn:"Call me",
   faqEye:"Questions",faqTitle:'Frequently <b>asked</b>',copy:"© 2026 Olena Kostetska · Wrocław",
   faq:[{"q": "Is this suitable for beginners?", "a": "Yes. We match the format and training load to your goals, level and schedule."}, {"q": "How does payment work?", "a": "All services are paid before work begins. For a consultation or session, we agree a date and time, I send payment details, and your booking is confirmed after payment. For online coaching, you complete the questionnaire after payment; the four weeks begin on the agreed date. PLN: Polish bank transfer or BLIK; UAH: Ukrainian card or account; EUR: transfer to a EUR account."}, {"q": "Are personal sessions included in online coaching?", "a": "No. They can be booked separately for 150 zł / 1 800 ₴ / 35 € per session."}, {"q": "Will I get a new program every week?", "a": "Only if needed. Workouts A / B / C can repeat with appropriate progression. I adjust the plan based on your progress."}, {"q": "Can I train without a gym?", "a": "Yes. We can discuss your space and equipment and choose a suitable format."}],
  }
@@ -126,6 +132,9 @@ const DATA={
 const CONFIG = {
   instagramUrl: "https://instagram.com/alyonochka_22",
   instagramHandle: "@alyonochka_22",
+  whatsappUrl: "https://wa.me/380671400447",
+  phoneHref: "tel:+380671400447",
+  phoneDisplay: "+380 67 140 04 47",
   heroPhoto: "/hero.jpg",
   aboutPhoto: "/about.jpg",
 };
@@ -236,6 +245,15 @@ section.block{padding:110px 0;position:relative}
 .title-chip{display:flex;align-items:center;gap:14px;background:var(--white);border:1px solid var(--line);border-radius:14px;padding:18px 20px}
 .title-chip .ic{font-size:22px;flex-shrink:0}
 .title-chip span{font-weight:500;font-size:15px;color:var(--ink);line-height:1.35}
+.stage-gallery-head{margin-top:72px}
+.stage-gallery{display:grid;grid-template-columns:1.2fr .8fr .8fr;grid-template-rows:270px 270px;gap:14px;margin-top:32px}
+.stage-photo{position:relative;overflow:hidden;border-radius:20px;background:var(--ink)}
+.stage-photo:first-child{grid-row:1 / 3}
+.stage-photo:last-child{grid-column:2 / 4}
+.stage-photo img{width:100%;height:100%;display:block;object-fit:cover;transition:transform .5s cubic-bezier(.22,1,.36,1)}
+.stage-photo:hover img{transform:scale(1.025)}
+.stage-photo::after{content:"";position:absolute;inset:auto 0 0;height:48%;background:linear-gradient(transparent,rgba(12,8,19,.78));pointer-events:none}
+.stage-caption{position:absolute;left:20px;right:20px;bottom:18px;z-index:1;color:#fff;font-size:14px;font-weight:600;line-height:1.4;text-shadow:0 1px 8px rgba(0,0,0,.3)}
 
 /* PROCESS */
 .steps{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-top:44px}
@@ -277,8 +295,8 @@ section.block{padding:110px 0;position:relative}
 .card p{color:var(--ink-2);font-size:15px;line-height:1.55;margin-bottom:22px;min-height:66px}
 .price-row{display:flex;align-items:baseline;gap:10px;margin-bottom:4px}
 .price{font-family:'Fraunces';font-weight:700;font-size:25px;color:var(--ink);line-height:1.35;letter-spacing:-.02em}
+.price-alt{font-size:13px;color:var(--ink-3);margin:5px 0 16px;font-weight:500}
 .price small{font-size:14px;color:var(--ink-2);font-weight:400;font-family:'Inter'}
-.price-alt{font-size:13px;color:var(--ink-3);margin-bottom:20px;font-weight:500}
 .card .btn{width:100%;justify-content:center}
 .service-details{display:flex;flex-direction:column;gap:6px;color:var(--ink-2);font-size:14px;line-height:1.45;margin:18px 0 22px;min-height:58px}
 .payment-note{color:var(--ink-2);line-height:1.7;margin-top:28px;max-width:850px}
@@ -299,6 +317,9 @@ section.block{padding:110px 0;position:relative}
 .cta-band p{color:rgba(255,255,255,.85);max-width:480px;margin:0 auto 32px;font-size:18px;line-height:1.5}
 .cta-band .btn-primary{background:#fff;color:var(--accent)}
 .cta-band .btn-primary:hover{background:var(--ink);color:#fff}
+.contact-actions{display:flex;justify-content:center;gap:10px;flex-wrap:wrap}
+.cta-band .btn-contact{background:rgba(255,255,255,.14);color:#fff;border:1px solid rgba(255,255,255,.42)}
+.cta-band .btn-contact:hover{background:#fff;color:var(--accent)}
 
 .faq-item{border-top:1px solid var(--line-2);padding:26px 0;cursor:pointer}
 .faq-item:last-child{border-bottom:1px solid var(--line-2)}
@@ -314,6 +335,7 @@ footer{padding:70px 0 max(44px,calc(env(safe-area-inset-bottom) + 20px));border-
 .foot .logo{font-size:24px}
 .ig{display:inline-flex;align-items:center;gap:10px;border:1px solid var(--line-2);padding:12px 22px;border-radius:980px;color:var(--ink);text-decoration:none;font-weight:600;font-size:15px;transition:.2s}
 .ig:hover{border-color:var(--accent);color:var(--accent)}
+.foot-links{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
 .copyright{margin-top:34px;color:var(--ink-3);font-size:14px;text-align:center}
 
 /* FLOATING CTA */
@@ -353,7 +375,16 @@ footer{padding:70px 0 max(44px,calc(env(safe-area-inset-bottom) + 20px));border-
   .tl-row{grid-template-columns:60px 1fr;gap:16px}
   .tl-year{font-size:21px}
   .sec-title{max-width:none}
+  .stage-gallery{grid-template-columns:1fr 1fr;grid-template-rows:360px 220px 260px}
+  .stage-photo:first-child{grid-row:auto;grid-column:1 / 3}
+  .stage-photo:last-child{grid-column:1 / 3}
   }
+
+@media(max-width:520px){
+  .stage-gallery{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;margin-left:-24px;margin-right:-24px;padding:0 24px 8px;gap:12px}
+  .stage-photo{flex:0 0 82vw;height:430px;scroll-snap-align:center}
+  .stage-photo:first-child,.stage-photo:last-child{grid-row:auto;grid-column:auto}
+}
 
 
 `;
@@ -361,6 +392,12 @@ footer{padding:70px 0 max(44px,calc(env(safe-area-inset-bottom) + 20px));border-
 // ───────────────────────── 3. КОД ─────────────────────────
 const LANGS = ['uk', 'pl', 'en']
 const STEP_ICONS = ['👋', '📋', '🎯', '📝', '📈', '⚙️']
+const STAGE_PHOTOS = [
+  '/gallery/champion-trophy.svg',
+  '/gallery/npc-poland-team.svg',
+  '/gallery/flex-weekend.svg',
+  '/gallery/euromasters-stage.svg',
+]
 
 // render content strings that may contain <b>/<i>/<br>
 function Rich({ html, as = 'span', className, ...rest }) {
@@ -377,6 +414,12 @@ const Star = () => (
 const IgIcon = ({ size = 18 }) => (
   <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><rect x="2" y="2" width="20" height="20" rx="5" /><circle cx="12" cy="12" r="4" /><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none" /></svg>
 )
+const ChatIcon = ({ size = 18 }) => (
+  <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M21 11.5a8.4 8.4 0 0 1-9 8.5 9.7 9.7 0 0 1-4-.9L3 21l1.7-4.3A8.5 8.5 0 1 1 21 11.5Z" /><path d="M8.5 8.5c.8 3 2 4.2 5 5" /></svg>
+)
+const PhoneIcon = ({ size = 18 }) => (
+  <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 2 .7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.5c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2.1Z" /></svg>
+)
 
 export default function App() {
   const [lang, setLang] = useState('uk')
@@ -385,6 +428,14 @@ export default function App() {
   const [fabShow, setFabShow] = useState(false)
 
   const d = DATA[lang]
+  const primaryCurrency = lang
+  const currencyMeta = {
+    uk: { symbol: '₴', locale: 'uk-UA' },
+    pl: { symbol: 'zł', locale: 'pl-PL' },
+    en: { symbol: '€', locale: 'en-IE' },
+  }
+  const formatPrice = (prices, currency) => `${prices[currency].toLocaleString(currencyMeta[currency].locale)} ${currencyMeta[currency].symbol}`
+  const otherPrices = (prices) => ['pl', 'uk', 'en'].filter((currency) => currency !== primaryCurrency).map((currency) => formatPrice(prices, currency)).join(' · ')
 
   useEffect(() => {
     const nl = (navigator.language || 'uk').slice(0, 2)
@@ -480,6 +531,25 @@ export default function App() {
         </div>
       </div>
 
+      <section className="block wrap" id="services" style={{ background: 'linear-gradient(180deg,var(--bg-soft),transparent 55%)' }}>
+        <div className="sec-head"><div className="sec-eyebrow" style={{ margin: 0 }}>{d.servEye}</div></div>
+        <Rich as="h2" className="sec-title" html={d.servTitle} />
+        <div className="cards">
+          {d.services.map((service, i) => (
+            <div className={`card ${service.feat ? 'featured' : ''}`} key={i}>
+              <div className="card-top"><span className="card-tag">{String(i + 1).padStart(2, '0')}</span></div>
+              <h3>{service.title}</h3>
+              <p>{service.desc}</p>
+              <div className="price-row"><div className="price">{formatPrice(service.prices, primaryCurrency)}</div></div>
+              <div className="price-alt">{d.otherCurrencies}: {otherPrices(service.prices)}</div>
+              <div className="service-details"><span>{service.duration}</span><span>{service.format}</span></div>
+              <a href={CONFIG.instagramUrl} target="_blank" rel="noopener noreferrer" className={`btn ${service.feat ? 'btn-primary' : 'btn-ghost'}`}>{d.serviceCtas[i]}</a>
+            </div>
+          ))}
+        </div>
+        <p className="payment-note">{d.payment}</p>
+      </section>
+
       <section className="block wrap" id="about">
         <div className="about">
           <div className="frame"><img src={CONFIG.aboutPhoto} alt="Olena Kostetska" /></div>
@@ -518,6 +588,18 @@ export default function App() {
                   ))}
                 </div>
               </div>
+            ))}
+          </div>
+          <div className="stage-gallery-head">
+            <div className="sec-eyebrow">{d.galleryEye}</div>
+            <Rich as="h3" className="sec-title" html={d.galleryTitle} />
+          </div>
+          <div className="stage-gallery">
+            {STAGE_PHOTOS.map((src, i) => (
+              <figure className="stage-photo" key={src}>
+                <img src={src} alt={d.gallery[i]} loading="lazy" decoding="async" />
+                <figcaption className="stage-caption">{d.gallery[i]}</figcaption>
+              </figure>
             ))}
           </div>
         </div>
@@ -560,24 +642,6 @@ export default function App() {
         </div>
       </section>
 
-      <section className="block wrap" id="services" style={{ background: 'linear-gradient(180deg,var(--pearl2),transparent 55%)' }}>
-        <div className="sec-head"><div className="sec-eyebrow" style={{ margin: 0 }}>{d.servEye}</div></div>
-        <Rich as="h2" className="sec-title" html={d.servTitle} />
-        <div className="cards">
-          {d.services.map((service, i) => (
-            <div className={`card ${service.feat ? 'featured' : ''}`} key={i}>
-              <div className="card-top"><span className="card-tag">{String(i + 1).padStart(2, '0')}</span></div>
-              <h3>{service.title}</h3>
-              <p>{service.desc}</p>
-              <div className="price-row"><div className="price">{service.prices.pl} zł / {service.prices.uk.toLocaleString('uk-UA')} ₴ / {service.prices.en} €</div></div>
-              <div className="service-details"><span>{service.duration}</span><span>{service.format}</span></div>
-              <a href={CONFIG.instagramUrl} target="_blank" rel="noopener noreferrer" className={`btn ${service.feat ? 'btn-primary' : 'btn-ghost'}`}>{d.cta1}</a>
-            </div>
-          ))}
-        </div>
-        <p className="payment-note">{d.payment}</p>
-      </section>
-
       <section className="block wrap" id="includes">
         <div className="sec-head"><div className="sec-eyebrow" style={{ margin: 0 }}>{d.incEye}</div></div>
         <Rich as="h2" className="sec-title" html={d.incTitle} />
@@ -612,7 +676,11 @@ export default function App() {
         <div className="cta-band">
           <Rich as="h2" html={d.ctaTitle} />
           <p>{d.ctaText}</p>
-          <a href={CONFIG.instagramUrl} target="_blank" rel="noopener noreferrer" className="btn btn-primary">{d.ctaBtn}</a>
+          <div className="contact-actions">
+            <a href={CONFIG.instagramUrl} target="_blank" rel="noopener noreferrer" className="btn btn-primary"><IgIcon />{d.ctaBtn}</a>
+            <a href={CONFIG.whatsappUrl} target="_blank" rel="noopener noreferrer" className="btn btn-contact"><ChatIcon />{d.whatsappBtn}</a>
+            <a href={CONFIG.phoneHref} className="btn btn-contact"><PhoneIcon />{CONFIG.phoneDisplay}</a>
+          </div>
         </div>
       </section>
 
@@ -629,14 +697,18 @@ export default function App() {
         </div>
       </section>
 
-      <a href={CONFIG.instagramUrl} className={`fab ${fabShow ? 'show' : ''}`} target="_blank" rel="noopener">
-        <IgIcon size={20} /><span>{d.fabText}</span>
+      <a href={CONFIG.whatsappUrl} className={`fab ${fabShow ? 'show' : ''}`} target="_blank" rel="noopener">
+        <ChatIcon size={20} /><span>{d.whatsappBtn}</span>
       </a>
 
       <footer className="wrap">
         <div className="foot">
           <div className="logo">Olena <em>Kostetska</em></div>
-          <a href={CONFIG.instagramUrl} className="ig" target="_blank" rel="noopener"><IgIcon /> {CONFIG.instagramHandle}</a>
+          <div className="foot-links">
+            <a href={CONFIG.instagramUrl} className="ig" target="_blank" rel="noopener"><IgIcon /> {CONFIG.instagramHandle}</a>
+            <a href={CONFIG.whatsappUrl} className="ig" target="_blank" rel="noopener"><ChatIcon /> WhatsApp</a>
+            <a href={CONFIG.phoneHref} className="ig"><PhoneIcon /> {CONFIG.phoneDisplay}</a>
+          </div>
         </div>
         <div className="copyright">{d.copy}</div>
       </footer>
