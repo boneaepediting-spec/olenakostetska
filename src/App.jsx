@@ -36,7 +36,8 @@ const DATA={
   valEye:"💜 Мої цінності",valTitle:'Підхід, у який я <b>вірю</b>',
   values:[{t:"Дисципліна",p:"Саме регулярні дії створюють результат."},{t:"Здоров’я",p:"Форма не повинна будуватися ціною виснаження."},{t:"Стабільність",p:"Короткі ривки не дають довготривалого результату."},{t:"Любов до себе",p:"Зміни починаються з турботи про себе, а не з ненависті до тіла."},{t:"Тривалий результат",p:"Моя мета — навчити тебе зберігати форму, а не лише її досягти."}],
   servEye:"✨ Послуги",servTitle:'Обери свій <b>формат</b>',
-  services:[{"title": "Консультація", "desc": "Визначимо цілі, розберемо активність, тренування, харчування та суплементацію. Відповім на запитання й дам подальший план дій. Персональні плани тренувань і харчування не входять.", "duration": "до 60 хв", "format": "Онлайн / офлайн", "prices": {"pl": 100, "uk": 1200, "en": 25}, "feat": false}, {"title": "Персональне тренування", "desc": "Заняття відповідно до цілі й рівня: індивідуальні вправи й навантаження, постановка та контроль техніки, виправлення помилок і рекомендації на майбутнє.", "duration": "до 60 хв", "format": "Онлайн з будь-якої країни / офлайн у Вроцлаві", "prices": {"pl": 150, "uk": 1800, "en": 35}, "feat": false}, {"title": "Індивідуальне онлайн-ведення", "desc": "Персональна робота протягом 4 тижнів: програма тренувань, харчування, суплементація в межах компетенції тренера, щотижневий звіт і коригування за результатами. Персональні заняття оплачуються окремо.", "duration": "4 тижні", "format": "Онлайн", "prices": {"pl": 400, "uk": 4700, "en": 90}, "feat": true}],
+  services:[{"title": "Консультація", "desc": "Визначимо цілі, розберемо активність, тренування, харчування та суплементацію. Відповім на запитання й дам подальший план дій. Персональні плани тренувань і харчування не входять.", "duration": "до 60 хв", "format": "Онлайн / офлайн", "prices": {"pl": 100, "uk": 1200, "en": 25}, "cta": "Записатися на консультацію", "feat": false}, {"title": "Персональне тренування", "desc": "Заняття відповідно до цілі й рівня: індивідуальні вправи й навантаження, постановка та контроль техніки, виправлення помилок і рекомендації на майбутнє.", "duration": "до 60 хв", "format": "Онлайн з будь-якої країни / офлайн у Вроцлаві", "prices": {"pl": 150, "uk": 1800, "en": 35}, "cta": "Записатися на тренування", "feat": false}, {"title": "Індивідуальне онлайн-ведення", "desc": "Персональна робота протягом 4 тижнів: програма тренувань, харчування, суплементація в межах компетенції тренера, щотижневий звіт і коригування за результатами. Персональні заняття оплачуються окремо.", "duration": "4 тижні", "format": "Онлайн", "prices": {"pl": 400, "uk": 4700, "en": 90}, "cta": "Почати онлайн-ведення", "feat": true}],
+  galleryEye:"Змагання",galleryTitle:'Моменти <b>зі сцени</b>',gallery:["Перемога на NPC Poland","Абсолютна чемпіонка Open Fit Model","На сцені Flex Weekend","Медалі міжнародних стартів"],
   payment:"Усі послуги оплачуються до початку роботи. Для консультації та тренування бронювання підтверджується після оплати; онлайн-ведення починається з узгодженої дати після анкети й підготовки плану.",
   credEye:"🎓 Освіта та сертифікація",credTitle:'Знання, яким можна <b>довіряти</b>',
   credIntro:"Постійно вчуся, щоб давати не поради з інтернету, а перевірені знання.",
@@ -73,7 +74,8 @@ const DATA={
   valEye:"💜 Moje wartości",valTitle:'Podejście, w które <b>wierzę</b>',
   values:[{t:"Dyscyplina",p:"To regularne działania tworzą wynik."},{t:"Zdrowie",p:"Forma nie może powstawać kosztem wyczerpania."},{t:"Stabilność",p:"Krótkie zrywy nie dają trwałego efektu."},{t:"Miłość do siebie",p:"Zmiany zaczynają się od troski o siebie, nie od nienawiści do ciała."},{t:"Trwały efekt",p:"Moim celem jest nauczyć Cię utrzymać formę, nie tylko ją osiągnąć."}],
   servEye:"✨ Usługi",servTitle:'Wybierz swój <b>format</b>',
-  services:[{"title": "Konsultacja", "desc": "Ustalimy cele, przeanalizujemy aktywność, treningi, odżywianie i suplementację. Odpowiem na pytania i zaproponuję dalsze kroki. Indywidualny plan treningowy i żywieniowy nie są w cenie.", "duration": "do 60 min", "format": "Online / stacjonarnie", "prices": {"pl": 100, "uk": 1200, "en": 25}, "feat": false}, {"title": "Trening personalny", "desc": "Trening dopasowany do celu i poziomu: dobór ćwiczeń i obciążenia, nauka i kontrola techniki, korekta błędów oraz zalecenia na kolejne treningi.", "duration": "do 60 min", "format": "Online z dowolnego kraju / stacjonarnie we Wrocławiu", "prices": {"pl": 150, "uk": 1800, "en": 35}, "feat": false}, {"title": "Indywidualne prowadzenie online", "desc": "4 tygodnie indywidualnej współpracy: plan treningów, żywienie, suplementacja w zakresie kompetencji trenerki, cotygodniowy raport i korekty według postępów. Treningi personalne są płatne osobno.", "duration": "4 tygodnie", "format": "Online", "prices": {"pl": 400, "uk": 4700, "en": 90}, "feat": true}],
+  services:[{"title": "Konsultacja", "desc": "Ustalimy cele, przeanalizujemy aktywność, treningi, odżywianie i suplementację. Odpowiem na pytania i zaproponuję dalsze kroki. Indywidualny plan treningowy i żywieniowy nie są w cenie.", "duration": "do 60 min", "format": "Online / stacjonarnie", "prices": {"pl": 100, "uk": 1200, "en": 25}, "cta": "Umów konsultację", "feat": false}, {"title": "Trening personalny", "desc": "Trening dopasowany do celu i poziomu: dobór ćwiczeń i obciążenia, nauka i kontrola techniki, korekta błędów oraz zalecenia na kolejne treningi.", "duration": "do 60 min", "format": "Online z dowolnego kraju / stacjonarnie we Wrocławiu", "prices": {"pl": 150, "uk": 1800, "en": 35}, "cta": "Umów trening", "feat": false}, {"title": "Indywidualne prowadzenie online", "desc": "4 tygodnie indywidualnej współpracy: plan treningów, żywienie, suplementacja w zakresie kompetencji trenerki, cotygodniowy raport i korekty według postępów. Treningi personalne są płatne osobno.", "duration": "4 tygodnie", "format": "Online", "prices": {"pl": 400, "uk": 4700, "en": 90}, "cta": "Rozpocznij prowadzenie online", "feat": true}],
+  galleryEye:"Zawody",galleryTitle:'Chwile <b>ze sceny</b>',gallery:["Zwycięstwo na NPC Poland","Absolutna mistrzyni Open Fit Model","Na scenie Flex Weekend","Medale międzynarodowych zawodów"],
   payment:"Wszystkie usługi opłaca się przed rozpoczęciem. Rezerwacja konsultacji i treningu jest potwierdzana po wpłacie; prowadzenie online zaczyna się w ustalonym terminie po ankiecie i przygotowaniu planu.",
   credEye:"🎓 Edukacja i certyfikaty",credTitle:'Wiedza, której możesz <b>zaufać</b>',
   credIntro:"Ciągle się uczę, żeby dawać sprawdzoną wiedzę, a nie porady z internetu.",
@@ -110,7 +112,8 @@ const DATA={
   valEye:"💜 My values",valTitle:'The approach I <b>believe in</b>',
   values:[{t:"Discipline",p:"Regular actions are what create results."},{t:"Health",p:"Shape should never be built at the cost of exhaustion."},{t:"Stability",p:"Short bursts don't give a lasting result."},{t:"Self-love",p:"Change starts with caring for yourself, not hating your body."},{t:"Lasting result",p:"My goal is to teach you to keep your shape, not just reach it."}],
   servEye:"✨ Services",servTitle:'Choose your <b>format</b>',
-  services:[{"title": "Consultation", "desc": "We define your goals, review activity, training, nutrition and supplements, answer your questions and map next steps. A personal training program and meal plan are not included.", "duration": "up to 60 min", "format": "Online / in person", "prices": {"pl": 100, "uk": 1200, "en": 25}, "feat": false}, {"title": "Personal training", "desc": "A session matched to your goal and level: exercises and load selection, technique coaching and correction, plus guidance for future training.", "duration": "up to 60 min", "format": "Online from anywhere / in person in Wrocław", "prices": {"pl": 150, "uk": 1800, "en": 35}, "feat": false}, {"title": "Individual online coaching", "desc": "Four weeks of personal support: training plan, nutrition, supplements within a coach’s scope, weekly check-ins and adjustments based on progress. Personal sessions cost extra.", "duration": "4 weeks", "format": "Online", "prices": {"pl": 400, "uk": 4700, "en": 90}, "feat": true}],
+  services:[{"title": "Consultation", "desc": "We define your goals, review activity, training, nutrition and supplements, answer your questions and map next steps. A personal training program and meal plan are not included.", "duration": "up to 60 min", "format": "Online / in person", "prices": {"pl": 100, "uk": 1200, "en": 25}, "cta": "Book a consultation", "feat": false}, {"title": "Personal training", "desc": "A session matched to your goal and level: exercises and load selection, technique coaching and correction, plus guidance for future training.", "duration": "up to 60 min", "format": "Online from anywhere / in person in Wrocław", "prices": {"pl": 150, "uk": 1800, "en": 35}, "cta": "Book personal training", "feat": false}, {"title": "Individual online coaching", "desc": "Four weeks of personal support: training plan, nutrition, supplements within a coach’s scope, weekly check-ins and adjustments based on progress. Personal sessions cost extra.", "duration": "4 weeks", "format": "Online", "prices": {"pl": 400, "uk": 4700, "en": 90}, "cta": "Start online coaching", "feat": true}],
+  galleryEye:"Competitions",galleryTitle:'Moments <b>on stage</b>',gallery:["Winning at NPC Poland","Overall Open Fit Model Champion","On stage at Flex Weekend","International competition medals"],
   payment:"All services are paid before work begins. Consultation and training bookings are confirmed after payment; online coaching starts on the agreed date after the questionnaire and plan preparation.",
   credEye:"🎓 Education & certification",credTitle:'Knowledge you can <b>trust</b>',
   credIntro:"I keep learning — so you get proven knowledge, not internet advice.",
@@ -126,8 +129,17 @@ const DATA={
 const CONFIG = {
   instagramUrl: "https://instagram.com/alyonochka_22",
   instagramHandle: "@alyonochka_22",
+  whatsappUrl: "https://wa.me/380671400447",
+  phoneUrl: "tel:+380671400447",
+  phoneLabel: "+380 67 140 04 47",
   heroPhoto: "/hero.jpg",
   aboutPhoto: "/about.jpg",
+  galleryPhotos: [
+    { src: "/hero.jpg", position: "50% 32%" },
+    { src: "/about.jpg", position: "68% 38%" },
+    { src: "/hero.jpg", position: "50% 58%" },
+    { src: "/about.jpg", position: "30% 48%" },
+  ],
 };
 
 // ───────────────────────── 2. СТИЛІ ─────────────────────────
@@ -236,6 +248,13 @@ section.block{padding:110px 0;position:relative}
 .title-chip{display:flex;align-items:center;gap:14px;background:var(--white);border:1px solid var(--line);border-radius:14px;padding:18px 20px}
 .title-chip .ic{font-size:22px;flex-shrink:0}
 .title-chip span{font-weight:500;font-size:15px;color:var(--ink);line-height:1.35}
+.gallery{display:grid;grid-template-columns:repeat(2,1fr);gap:18px;margin-top:56px}
+.gallery-head{grid-column:1/-1;margin-bottom:6px}
+.gallery-head .sec-title{margin-bottom:0}
+.gallery figure{position:relative;overflow:hidden;border-radius:20px;background:var(--ink);aspect-ratio:4/3}
+.gallery img{width:100%;height:100%;display:block;object-fit:cover;transition:transform .4s ease}
+.gallery figure:hover img{transform:scale(1.025)}
+.gallery figcaption{position:absolute;left:0;right:0;bottom:0;padding:42px 20px 18px;color:#fff;font-weight:600;background:linear-gradient(transparent,rgba(0,0,0,.78))}
 
 /* PROCESS */
 .steps{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-top:44px}
@@ -275,7 +294,7 @@ section.block{padding:110px 0;position:relative}
 .card.featured .card-tag{background:var(--accent);color:#fff}
 .card h3{font-family:'Fraunces';font-weight:600;font-size:26px;margin-bottom:10px;color:var(--ink);letter-spacing:-.02em}
 .card p{color:var(--ink-2);font-size:15px;line-height:1.55;margin-bottom:22px;min-height:66px}
-.price-row{display:flex;align-items:baseline;gap:10px;margin-bottom:4px}
+.price-row{display:flex;flex-direction:column;align-items:flex-start;gap:2px;margin-bottom:4px}
 .price{font-family:'Fraunces';font-weight:700;font-size:25px;color:var(--ink);line-height:1.35;letter-spacing:-.02em}
 .price small{font-size:14px;color:var(--ink-2);font-weight:400;font-family:'Inter'}
 .price-alt{font-size:13px;color:var(--ink-3);margin-bottom:20px;font-weight:500}
@@ -299,6 +318,9 @@ section.block{padding:110px 0;position:relative}
 .cta-band p{color:rgba(255,255,255,.85);max-width:480px;margin:0 auto 32px;font-size:18px;line-height:1.5}
 .cta-band .btn-primary{background:#fff;color:var(--accent)}
 .cta-band .btn-primary:hover{background:var(--ink);color:#fff}
+.contact-links{display:flex;justify-content:center;gap:10px;flex-wrap:wrap}
+.contact-links .btn{background:#fff;color:var(--accent)}
+.contact-links .btn:hover{background:var(--ink);color:#fff}
 
 .faq-item{border-top:1px solid var(--line-2);padding:26px 0;cursor:pointer}
 .faq-item:last-child{border-bottom:1px solid var(--line-2)}
@@ -312,12 +334,13 @@ section.block{padding:110px 0;position:relative}
 footer{padding:70px 0 max(44px,calc(env(safe-area-inset-bottom) + 20px));border-top:1px solid var(--line);margin-top:20px}
 .foot{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:24px}
 .foot .logo{font-size:24px}
-.ig{display:inline-flex;align-items:center;gap:10px;border:1px solid var(--line-2);padding:12px 22px;border-radius:980px;color:var(--ink);text-decoration:none;font-weight:600;font-size:15px;transition:.2s}
-.ig:hover{border-color:var(--accent);color:var(--accent)}
+.foot-contacts{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.contact-link{display:inline-flex;align-items:center;gap:10px;border:1px solid var(--line-2);padding:12px 18px;border-radius:980px;color:var(--ink);text-decoration:none;font-weight:600;font-size:15px;transition:.2s}
+.contact-link:hover{border-color:var(--accent);color:var(--accent)}
 .copyright{margin-top:34px;color:var(--ink-3);font-size:14px;text-align:center}
 
 /* FLOATING CTA */
-.fab{position:fixed;right:max(18px,env(safe-area-inset-right));bottom:max(18px,calc(env(safe-area-inset-bottom) + 6px));z-index:90;display:inline-flex;align-items:center;gap:9px;background:var(--accent);color:#fff;font-weight:600;font-size:15px;padding:14px 20px;border-radius:980px;text-decoration:none;box-shadow:0 10px 30px rgba(107,78,158,.4);transform:translateY(120px);opacity:0;transition:transform .4s cubic-bezier(.32,.72,0,1),opacity .3s,background .2s}
+.fab{position:fixed;right:max(18px,env(safe-area-inset-right));bottom:max(18px,calc(env(safe-area-inset-bottom) + 6px));z-index:90;display:inline-flex;align-items:center;gap:9px;background:#25D366;color:#fff;font-weight:600;font-size:15px;padding:14px 20px;border-radius:980px;text-decoration:none;box-shadow:0 10px 30px rgba(37,211,102,.32);transform:translateY(120px);opacity:0;transition:transform .4s cubic-bezier(.32,.72,0,1),opacity .3s,background .2s}
 .fab.show{transform:translateY(0);opacity:1}
 .fab:hover{background:var(--ink)}
 .fab svg{flex-shrink:0}
@@ -348,7 +371,7 @@ footer{padding:70px 0 max(44px,calc(env(safe-area-inset-bottom) + 20px));border-
   .hero{padding-top:116px}
   .hero .wrap{grid-template-columns:1fr;gap:48px}
   .about{grid-template-columns:1fr;gap:36px}
-  .goals,.cards,.creds,.titles,.steps,.includes{grid-template-columns:1fr}
+  .goals,.cards,.creds,.titles,.steps,.includes,.gallery{grid-template-columns:1fr}
   .values{grid-template-columns:repeat(2,1fr)}
   .tl-row{grid-template-columns:60px 1fr;gap:16px}
   .tl-year{font-size:21px}
@@ -377,6 +400,24 @@ const Star = () => (
 const IgIcon = ({ size = 18 }) => (
   <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><rect x="2" y="2" width="20" height="20" rx="5" /><circle cx="12" cy="12" r="4" /><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none" /></svg>
 )
+const WhatsAppIcon = ({ size = 18 }) => (
+  <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M20.5 11.7a8.5 8.5 0 0 1-12.6 7.4L3 20.5l1.4-4.7a8.5 8.5 0 1 1 16.1-4.1Z" /><path d="M8.2 7.7c.2-.4.4-.4.7-.4h.5l1 2.2c.1.3 0 .5-.2.8l-.7.8c.8 1.6 2 2.7 3.6 3.4l.8-1c.2-.3.5-.3.8-.2l2.1 1c.3.2.4.4.3.8-.2 1.2-1.2 2-2.4 2-3.6-.2-7.5-3.6-7.7-7.3 0-.8.4-1.6 1.2-2.1Z" /></svg>
+)
+const PhoneIcon = ({ size = 18 }) => (
+  <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 2 .7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.5c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2.1Z" /></svg>
+)
+
+const CURRENCIES = {
+  uk: { suffix: '₴', locale: 'uk-UA' },
+  pl: { suffix: 'zł', locale: 'pl-PL' },
+  en: { suffix: '€', locale: 'en-IE' },
+}
+
+function Price({ prices, lang }) {
+  const order = [lang, ...LANGS.filter((currency) => currency !== lang)]
+  const format = (currency) => `${prices[currency].toLocaleString(CURRENCIES[currency].locale)} ${CURRENCIES[currency].suffix}`
+  return <><div className="price">{format(order[0])}</div><div className="price-alt">{order.slice(1).map(format).join(' · ')}</div></>
+}
 
 export default function App() {
   const [lang, setLang] = useState('uk')
@@ -489,9 +530,9 @@ export default function App() {
               <div className="card-top"><span className="card-tag">{String(i + 1).padStart(2, '0')}</span></div>
               <h3>{service.title}</h3>
               <p>{service.desc}</p>
-              <div className="price-row"><div className="price">{service.prices.pl} zł / {service.prices.uk.toLocaleString('uk-UA')} ₴ / {service.prices.en} €</div></div>
+              <div className="price-row"><Price prices={service.prices} lang={lang} /></div>
               <div className="service-details"><span>{service.duration}</span><span>{service.format}</span></div>
-              <a href={CONFIG.instagramUrl} target="_blank" rel="noopener noreferrer" className={`btn ${service.feat ? 'btn-primary' : 'btn-ghost'}`}>{d.cta1}</a>
+              <a href={`${CONFIG.whatsappUrl}?text=${encodeURIComponent(service.cta)}`} target="_blank" rel="noopener noreferrer" className={`btn ${service.feat ? 'btn-primary' : 'btn-ghost'}`}>{service.cta}</a>
             </div>
           ))}
         </div>
@@ -536,6 +577,12 @@ export default function App() {
                   ))}
                 </div>
               </div>
+            ))}
+          </div>
+          <div className="gallery">
+            <div className="gallery-head"><div className="sec-eyebrow">{d.galleryEye}</div><Rich as="h3" className="sec-title" html={d.galleryTitle} /></div>
+            {CONFIG.galleryPhotos.map((photo, i) => (
+              <figure key={`${photo.src}-${i}`}><img src={photo.src} alt={d.gallery[i]} loading="lazy" style={{ objectPosition: photo.position }} /><figcaption>{d.gallery[i]}</figcaption></figure>
             ))}
           </div>
         </div>
@@ -612,7 +659,11 @@ export default function App() {
         <div className="cta-band">
           <Rich as="h2" html={d.ctaTitle} />
           <p>{d.ctaText}</p>
-          <a href={CONFIG.instagramUrl} target="_blank" rel="noopener noreferrer" className="btn btn-primary">{d.ctaBtn}</a>
+          <div className="contact-links">
+            <a href={CONFIG.instagramUrl} target="_blank" rel="noopener noreferrer" className="btn"><IgIcon />{d.ctaBtn}</a>
+            <a href={CONFIG.whatsappUrl} target="_blank" rel="noopener noreferrer" className="btn"><WhatsAppIcon />WhatsApp</a>
+            <a href={CONFIG.phoneUrl} className="btn"><PhoneIcon />{CONFIG.phoneLabel}</a>
+          </div>
         </div>
       </section>
 
@@ -629,14 +680,18 @@ export default function App() {
         </div>
       </section>
 
-      <a href={CONFIG.instagramUrl} className={`fab ${fabShow ? 'show' : ''}`} target="_blank" rel="noopener">
-        <IgIcon size={20} /><span>{d.fabText}</span>
+      <a href={CONFIG.whatsappUrl} className={`fab ${fabShow ? 'show' : ''}`} target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
+        <WhatsAppIcon size={20} /><span>WhatsApp</span>
       </a>
 
       <footer className="wrap">
         <div className="foot">
           <div className="logo">Olena <em>Kostetska</em></div>
-          <a href={CONFIG.instagramUrl} className="ig" target="_blank" rel="noopener"><IgIcon /> {CONFIG.instagramHandle}</a>
+          <div className="foot-contacts">
+            <a href={CONFIG.instagramUrl} className="contact-link" target="_blank" rel="noopener noreferrer"><IgIcon /> {CONFIG.instagramHandle}</a>
+            <a href={CONFIG.whatsappUrl} className="contact-link" target="_blank" rel="noopener noreferrer"><WhatsAppIcon /> WhatsApp</a>
+            <a href={CONFIG.phoneUrl} className="contact-link"><PhoneIcon /> {CONFIG.phoneLabel}</a>
+          </div>
         </div>
         <div className="copyright">{d.copy}</div>
       </footer>
