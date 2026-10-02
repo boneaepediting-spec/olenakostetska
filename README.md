@@ -10,8 +10,10 @@ vite.config.js      — конфіг Vite
 vercel.json         — конфіг деплою на Vercel
 package.json        — залежності
 public/
-  hero.jpg          — фото для першого екрана
-  about.jpg         — фото для секції «Про мене»
+  stage-trophy.jpg  — фото для першого екрана
+  stage-portrait.jpg — фото для секції «Про мене»
+  european-festival.jpg, champion.jpg, podium.jpg, euromasters-italy.jpg,
+  flex-medal.jpg, hero.jpg, about.jpg — галерея «Моменти зі сцени»
 src/
   main.jsx          — старт React
   App.jsx           — усі секції, тексти (3 мови), фіксовані ціни та стилі
@@ -23,6 +25,7 @@ src/
 - Тексти кожної мови в об'єкті `DATA` (`uk`, `pl`, `en`).
 - Ціни — поля `prices.pl` (PLN), `prices.uk` (UAH), `prices.en` (EUR) у `services` кожної мови. Значення фіксовані вручну, без конвертації.
 - Послуги: консультація (100 zł / 1 200 ₴ / 25 €), персональне тренування (150 zł / 1 800 ₴ / 35 €), онлайн-ведення на 4 тижні (400 zł / 4 700 ₴ / 90 €).
+- Фото — у `CONFIG` (`heroPhoto`, `aboutPhoto`, `galleryPhotos`). Новий файл кладеш у `public/`, додаєш рядок у `galleryPhotos` і підпис у `gallery` кожної мови (той самий порядок).
 - Контактні кнопки ведуть на `CONFIG.instagramUrl`. Усі послуги оплачуються до початку роботи; персональні заняття оплачуються окремо від онлайн-ведення.
 
 ---

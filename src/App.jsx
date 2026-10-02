@@ -37,7 +37,7 @@ const DATA={
   values:[{t:"Дисципліна",p:"Саме регулярні дії створюють результат."},{t:"Здоров’я",p:"Форма не повинна будуватися ціною виснаження."},{t:"Стабільність",p:"Короткі ривки не дають довготривалого результату."},{t:"Любов до себе",p:"Зміни починаються з турботи про себе, а не з ненависті до тіла."},{t:"Тривалий результат",p:"Моя мета — навчити тебе зберігати форму, а не лише її досягти."}],
   servEye:"✨ Послуги",servTitle:'Обери свій <b>формат</b>',
   services:[{"title": "Консультація", "desc": "Визначимо цілі, розберемо активність, тренування, харчування та суплементацію. Відповім на запитання й дам подальший план дій. Персональні плани тренувань і харчування не входять.", "duration": "до 60 хв", "format": "Онлайн / офлайн", "prices": {"pl": 100, "uk": 1200, "en": 25}, "cta": "Записатися на консультацію", "feat": false}, {"title": "Персональне тренування", "desc": "Заняття відповідно до цілі й рівня: індивідуальні вправи й навантаження, постановка та контроль техніки, виправлення помилок і рекомендації на майбутнє.", "duration": "до 60 хв", "format": "Онлайн з будь-якої країни / офлайн у Вроцлаві", "prices": {"pl": 150, "uk": 1800, "en": 35}, "cta": "Записатися на тренування", "feat": false}, {"title": "Індивідуальне онлайн-ведення", "desc": "Персональна робота протягом 4 тижнів: програма тренувань, харчування, суплементація в межах компетенції тренера, щотижневий звіт і коригування за результатами. Персональні заняття оплачуються окремо.", "duration": "4 тижні", "format": "Онлайн", "prices": {"pl": 400, "uk": 4700, "en": 90}, "cta": "Почати онлайн-ведення", "feat": true}],
-  galleryEye:"Змагання",galleryTitle:'Моменти <b>зі сцени</b>',gallery:["Перемога на NPC Poland","Абсолютна чемпіонка Open Fit Model","На сцені Flex Weekend","Медалі міжнародних стартів"],
+  galleryEye:"Змагання",galleryTitle:'Моменти <b>зі сцени</b>',gallery:["Перше місце на European Festival","Чемпіонка Poland Pro Qualifier","Чемпіонка NPC Poland","EuroMasters в Італії","Flex Weekend у Мілані","На сцені Flex Weekend","Нагородження Flex Weekend"],
   payment:"Усі послуги оплачуються до початку роботи. Для консультації та тренування бронювання підтверджується після оплати; онлайн-ведення починається з узгодженої дати після анкети й підготовки плану.",
   credEye:"🎓 Освіта та сертифікація",credTitle:'Знання, яким можна <b>довіряти</b>',
   credIntro:"Постійно вчуся, щоб давати не поради з інтернету, а перевірені знання.",
@@ -75,7 +75,7 @@ const DATA={
   values:[{t:"Dyscyplina",p:"To regularne działania tworzą wynik."},{t:"Zdrowie",p:"Forma nie może powstawać kosztem wyczerpania."},{t:"Stabilność",p:"Krótkie zrywy nie dają trwałego efektu."},{t:"Miłość do siebie",p:"Zmiany zaczynają się od troski o siebie, nie od nienawiści do ciała."},{t:"Trwały efekt",p:"Moim celem jest nauczyć Cię utrzymać formę, nie tylko ją osiągnąć."}],
   servEye:"✨ Usługi",servTitle:'Wybierz swój <b>format</b>',
   services:[{"title": "Konsultacja", "desc": "Ustalimy cele, przeanalizujemy aktywność, treningi, odżywianie i suplementację. Odpowiem na pytania i zaproponuję dalsze kroki. Indywidualny plan treningowy i żywieniowy nie są w cenie.", "duration": "do 60 min", "format": "Online / stacjonarnie", "prices": {"pl": 100, "uk": 1200, "en": 25}, "cta": "Umów konsultację", "feat": false}, {"title": "Trening personalny", "desc": "Trening dopasowany do celu i poziomu: dobór ćwiczeń i obciążenia, nauka i kontrola techniki, korekta błędów oraz zalecenia na kolejne treningi.", "duration": "do 60 min", "format": "Online z dowolnego kraju / stacjonarnie we Wrocławiu", "prices": {"pl": 150, "uk": 1800, "en": 35}, "cta": "Umów trening", "feat": false}, {"title": "Indywidualne prowadzenie online", "desc": "4 tygodnie indywidualnej współpracy: plan treningów, żywienie, suplementacja w zakresie kompetencji trenerki, cotygodniowy raport i korekty według postępów. Treningi personalne są płatne osobno.", "duration": "4 tygodnie", "format": "Online", "prices": {"pl": 400, "uk": 4700, "en": 90}, "cta": "Rozpocznij prowadzenie online", "feat": true}],
-  galleryEye:"Zawody",galleryTitle:'Chwile <b>ze sceny</b>',gallery:["Zwycięstwo na NPC Poland","Absolutna mistrzyni Open Fit Model","Na scenie Flex Weekend","Medale międzynarodowych zawodów"],
+  galleryEye:"Zawody",galleryTitle:'Chwile <b>ze sceny</b>',gallery:["Pierwsze miejsce na European Festival","Mistrzyni Poland Pro Qualifier","Mistrzyni NPC Poland","EuroMasters we Włoszech","Flex Weekend w Mediolanie","Na scenie Flex Weekend","Dekoracja na Flex Weekend"],
   payment:"Wszystkie usługi opłaca się przed rozpoczęciem. Rezerwacja konsultacji i treningu jest potwierdzana po wpłacie; prowadzenie online zaczyna się w ustalonym terminie po ankiecie i przygotowaniu planu.",
   credEye:"🎓 Edukacja i certyfikaty",credTitle:'Wiedza, której możesz <b>zaufać</b>',
   credIntro:"Ciągle się uczę, żeby dawać sprawdzoną wiedzę, a nie porady z internetu.",
@@ -113,7 +113,7 @@ const DATA={
   values:[{t:"Discipline",p:"Regular actions are what create results."},{t:"Health",p:"Shape should never be built at the cost of exhaustion."},{t:"Stability",p:"Short bursts don't give a lasting result."},{t:"Self-love",p:"Change starts with caring for yourself, not hating your body."},{t:"Lasting result",p:"My goal is to teach you to keep your shape, not just reach it."}],
   servEye:"✨ Services",servTitle:'Choose your <b>format</b>',
   services:[{"title": "Consultation", "desc": "We define your goals, review activity, training, nutrition and supplements, answer your questions and map next steps. A personal training program and meal plan are not included.", "duration": "up to 60 min", "format": "Online / in person", "prices": {"pl": 100, "uk": 1200, "en": 25}, "cta": "Book a consultation", "feat": false}, {"title": "Personal training", "desc": "A session matched to your goal and level: exercises and load selection, technique coaching and correction, plus guidance for future training.", "duration": "up to 60 min", "format": "Online from anywhere / in person in Wrocław", "prices": {"pl": 150, "uk": 1800, "en": 35}, "cta": "Book personal training", "feat": false}, {"title": "Individual online coaching", "desc": "Four weeks of personal support: training plan, nutrition, supplements within a coach’s scope, weekly check-ins and adjustments based on progress. Personal sessions cost extra.", "duration": "4 weeks", "format": "Online", "prices": {"pl": 400, "uk": 4700, "en": 90}, "cta": "Start online coaching", "feat": true}],
-  galleryEye:"Competitions",galleryTitle:'Moments <b>on stage</b>',gallery:["Winning at NPC Poland","Overall Open Fit Model Champion","On stage at Flex Weekend","International competition medals"],
+  galleryEye:"Competitions",galleryTitle:'Moments <b>on stage</b>',gallery:["First place at the European Festival","Poland Pro Qualifier Champion","NPC Poland Champion","EuroMasters in Italy","Flex Weekend in Milan","On stage at Flex Weekend","Flex Weekend awards"],
   payment:"All services are paid before work begins. Consultation and training bookings are confirmed after payment; online coaching starts on the agreed date after the questionnaire and plan preparation.",
   credEye:"🎓 Education & certification",credTitle:'Knowledge you can <b>trust</b>',
   credIntro:"I keep learning — so you get proven knowledge, not internet advice.",
@@ -132,13 +132,17 @@ const CONFIG = {
   whatsappUrl: "https://wa.me/380671400447",
   phoneUrl: "tel:+380671400447",
   phoneLabel: "+380 67 140 04 47",
-  heroPhoto: "/hero.jpg",
-  aboutPhoto: "/about.jpg",
+  heroPhoto: "/stage-trophy.jpg",
+  aboutPhoto: "/stage-portrait.jpg",
+  // Галерея «Моменти зі сцени» (гортається вбік). Підписи — у DATA.gallery, у тому ж порядку.
   galleryPhotos: [
-    { src: "/hero.jpg", position: "50% 32%" },
-    { src: "/about.jpg", position: "68% 38%" },
-    { src: "/hero.jpg", position: "50% 58%" },
-    { src: "/about.jpg", position: "30% 48%" },
+    "/european-festival.jpg",
+    "/champion.jpg",
+    "/podium.jpg",
+    "/euromasters-italy.jpg",
+    "/flex-medal.jpg",
+    "/hero.jpg",
+    "/about.jpg",
   ],
 };
 
@@ -215,7 +219,7 @@ h1.hero-title i{font-style:italic;font-weight:500;color:var(--accent)}
 .marquee b{color:var(--accent-2);margin:0 6px}
 @keyframes scroll{from{transform:translateX(0)}to{transform:translateX(-50%)}}
 
-section.block{padding:110px 0;position:relative}
+section.block{padding-top:110px;padding-bottom:110px;position:relative}
 .sec-head{display:flex;align-items:center;gap:12px;margin-bottom:8px}
 .sec-num{display:none}
 .sec-eyebrow{font-size:15px;font-weight:600;color:var(--accent);margin-bottom:14px}
@@ -248,13 +252,13 @@ section.block{padding:110px 0;position:relative}
 .title-chip{display:flex;align-items:center;gap:14px;background:var(--white);border:1px solid var(--line);border-radius:14px;padding:18px 20px}
 .title-chip .ic{font-size:22px;flex-shrink:0}
 .title-chip span{font-weight:500;font-size:15px;color:var(--ink);line-height:1.35}
-.gallery{display:grid;grid-template-columns:repeat(2,1fr);gap:18px;margin-top:56px}
-.gallery-head{grid-column:1/-1;margin-bottom:6px}
-.gallery-head .sec-title{margin-bottom:0}
-.gallery figure{position:relative;overflow:hidden;border-radius:20px;background:var(--ink);aspect-ratio:4/3}
-.gallery img{width:100%;height:100%;display:block;object-fit:cover;transition:transform .4s ease}
-.gallery figure:hover img{transform:scale(1.025)}
-.gallery figcaption{position:absolute;left:0;right:0;bottom:0;padding:42px 20px 18px;color:#fff;font-weight:600;background:linear-gradient(transparent,rgba(0,0,0,.78))}
+.gallery-head{margin-top:56px}
+.gallery-head .sec-title{margin-bottom:24px}
+.gallery{display:flex;gap:14px;overflow-x:auto;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch;scrollbar-width:none}
+.gallery::-webkit-scrollbar{display:none}
+.gallery figure{flex:0 0 auto;scroll-snap-align:start;position:relative;height:420px;border-radius:18px;overflow:hidden;box-shadow:0 10px 30px rgba(26,21,35,.12);background:var(--line)}
+.gallery img{height:100%;width:auto;display:block}
+.gallery figcaption{position:absolute;left:12px;bottom:12px;right:12px;width:fit-content;background:rgba(255,255,255,.92);backdrop-filter:blur(8px);color:var(--ink);font-size:13px;font-weight:600;padding:7px 12px;border-radius:10px}
 
 /* PROCESS */
 .steps{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-top:44px}
@@ -371,11 +375,22 @@ footer{padding:70px 0 max(44px,calc(env(safe-area-inset-bottom) + 20px));border-
   .hero{padding-top:116px}
   .hero .wrap{grid-template-columns:1fr;gap:48px}
   .about{grid-template-columns:1fr;gap:36px}
-  .goals,.cards,.creds,.titles,.steps,.includes,.gallery{grid-template-columns:1fr}
+  .goals,.cards,.creds,.titles,.steps,.includes{grid-template-columns:1fr}
   .values{grid-template-columns:repeat(2,1fr)}
   .tl-row{grid-template-columns:60px 1fr;gap:16px}
   .tl-year{font-size:21px}
   .sec-title{max-width:none}
+  section.block{padding-top:80px;padding-bottom:80px}
+  .gallery{margin-right:-24px;padding-right:24px}
+  .gallery figure{height:360px;max-width:calc(100vw - 64px)}
+  .gallery img{object-fit:cover;max-width:100%}
+  }
+@media(max-width:520px){
+  .wrap{padding-left:max(20px,env(safe-area-inset-left));padding-right:max(20px,env(safe-area-inset-right))}
+  .gallery{margin-right:-20px;padding-right:20px}
+  .cta-band{margin:0 16px;padding:56px 24px}
+  .card,.inc{padding:26px 22px}
+  .results{padding:28px 22px}
   }
 
 
@@ -541,7 +556,7 @@ export default function App() {
 
       <section className="block wrap" id="about">
         <div className="about">
-          <div className="frame"><img src={CONFIG.aboutPhoto} alt="Olena Kostetska" /></div>
+          <div className="frame"><img src={CONFIG.aboutPhoto} alt="Olena Kostetska" loading="lazy" /></div>
           <div>
             <div className="sec-eyebrow">{d.aboutEye}</div>
             <Rich as="h2" className="sec-title" html={d.aboutTitle} />
@@ -579,10 +594,10 @@ export default function App() {
               </div>
             ))}
           </div>
+          <div className="gallery-head"><div className="sec-eyebrow">{d.galleryEye}</div><Rich as="h3" className="sec-title" html={d.galleryTitle} /></div>
           <div className="gallery">
-            <div className="gallery-head"><div className="sec-eyebrow">{d.galleryEye}</div><Rich as="h3" className="sec-title" html={d.galleryTitle} /></div>
-            {CONFIG.galleryPhotos.map((photo, i) => (
-              <figure key={`${photo.src}-${i}`}><img src={photo.src} alt={d.gallery[i]} loading="lazy" style={{ objectPosition: photo.position }} /><figcaption>{d.gallery[i]}</figcaption></figure>
+            {CONFIG.galleryPhotos.map((src, i) => (
+              <figure key={src}><img src={src} alt={`Olena Kostetska — ${d.gallery[i]}`} loading="lazy" /><figcaption>{d.gallery[i]}</figcaption></figure>
             ))}
           </div>
         </div>
