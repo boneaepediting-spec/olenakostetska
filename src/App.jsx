@@ -219,7 +219,8 @@ h1.hero-title i{font-style:italic;font-weight:500;color:var(--accent)}
 .medal-badge .l{font-size:12px;font-weight:500;color:var(--ink-2);margin-top:4px}
 
 .marquee{border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:22px 0;overflow:hidden;white-space:nowrap;background:var(--bg-soft)}
-.marquee-track{display:inline-block;animation:scroll 38s linear infinite}
+.marquee-track{display:inline-block;animation:scroll 76s linear infinite}
+.marquee:hover .marquee-track{animation-play-state:paused}
 .marquee span{font-size:15px;font-weight:600;color:var(--ink-2);margin:0 18px}
 .marquee b{color:var(--accent-2);margin:0 6px}
 @keyframes scroll{from{transform:translateX(0)}to{transform:translateX(-50%)}}
@@ -398,7 +399,7 @@ footer{padding:70px 0 max(44px,calc(env(safe-area-inset-bottom) + 20px));border-
 /* REVEAL on scroll */
 .reveal{opacity:0;transform:translateY(36px) scale(.985);transition:opacity .8s var(--ease),transform 1s var(--spring)}
 .reveal.in{opacity:1;transform:none}
-@media(prefers-reduced-motion:reduce){.reveal{opacity:1;transform:none;transition:none}*{transition-duration:.01ms!important;animation-duration:.01ms!important}}
+@media(prefers-reduced-motion:reduce){.reveal{opacity:1;transform:none;transition:none}*{transition-duration:.01ms!important}.marquee-track{animation:none}}
 
 @media(max-width:980px){.nav-menu{display:none}}
 @media(max-width:880px){
@@ -686,7 +687,7 @@ export default function App() {
 
       <div className="marquee">
         <div className="marquee-track">
-          {[...d.mq, ...d.mq].map((t, i) => (<span key={i}>{t}<b> ✦ </b></span>))}
+          {[...d.mq, ...d.mq, ...d.mq, ...d.mq].map((t, i) => (<span key={i}>{t}<b> ✦ </b></span>))}
         </div>
       </div>
 
