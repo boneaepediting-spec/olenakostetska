@@ -15,8 +15,8 @@ const DATA={
   h1:'Твій прогрес —<br><i>крок за кроком</i> <b>разом</b>',
   herosub:"Я Олена — тренер із Вроцлава. 20 років у спорті, виступаю на міжнародній сцені. Допоможу побудувати реалістичну систему тренувань і харчування без крайнощів.",
   cta1:"Написати мені",cta2:"Про мене",badge:"на сцені з",
-  nav:{about:"Про мене",ach:"Досягнення",process:"Як працюю",whom:"Для кого",values:"Цінності",services:"Послуги",creds:"Освіта",faq:"Питання",navcta:"Написати мені"},
-  fabText:"Написати",incEye:"📦 Що входить",incTitle:"Що входить у <b>послуги</b>",includes:[{"t": "Консультація", "feat": false, "items": ["Визначення цілей та аналіз активності й тренувань", "Розбір харчування та обговорення суплементації", "Відповіді на запитання, рекомендації та план дій", "Без персональної програми тренувань і плану харчування"]}, {"t": "Персональне тренування", "feat": false, "items": ["Заняття під ціль і рівень підготовки", "Підбір вправ та навантаження", "Постановка, контроль техніки й виправлення помилок", "Рекомендації щодо подальших тренувань"]}, {"t": "Онлайн-ведення · 4 тижні", "feat": true, "items": ["Персональна програма: вправи, підходи, повторення, навантаження й прогресія; кількість занять під ціль, рівень і графік", "Орієнтовна калорійність і БЖВ, структура харчування, варіанти прийомів їжі, заміни, харчування до й після тренувань", "Аналіз суплементації й рекомендації в межах компетенції тренера", "Зв’язок із тренером, щотижневий звіт, аналіз прогресу, відповіді й коригування за потреби", "Персональні заняття не входять: 150 zł / 1 800 ₴ / 35 € за заняття"]}],
+  nav:{about:"Про мене",ach:"Досягнення",process:"Як працюю",whom:"Для кого",services:"Послуги",creds:"Освіта",faq:"Питання",navcta:"Написати мені"},
+  fabText:"Написати",incBtn:"Що входить",includes:[{"t": "Консультація", "feat": false, "items": ["Визначення цілей та аналіз активності й тренувань", "Розбір харчування та обговорення суплементації", "Відповіді на запитання, рекомендації та план дій", "Без персональної програми тренувань і плану харчування"]}, {"t": "Персональне тренування", "feat": false, "items": ["Заняття під ціль і рівень підготовки", "Підбір вправ та навантаження", "Постановка, контроль техніки й виправлення помилок", "Рекомендації щодо подальших тренувань"]}, {"t": "Онлайн-ведення · 4 тижні", "feat": true, "items": ["Персональна програма: вправи, підходи, повторення, навантаження й прогресія; кількість занять під ціль, рівень і графік", "Орієнтовна калорійність і БЖВ, структура харчування, варіанти прийомів їжі, заміни, харчування до й після тренувань", "Аналіз суплементації й рекомендації в межах компетенції тренера", "Зв’язок із тренером, щотижневий звіт, аналіз прогресу, відповіді й коригування за потреби", "Персональні заняття не входять: 150 zł / 1 800 ₴ / 35 € за заняття"]}],
   mq:["20+ років досвіду","Абсолютна чемпіонка Польщі","Міжнародна сцена","Дієтолог · нутриціолог","Mini MBA","Індивідуальний підхід"],
   aboutEye:"Про мене",aboutTitle:'Фітнес — це <b>мій шлях</b>',
   aboutP1:"Фітнес зі мною понад 20 років. Я пройшла шлях від дівчини, яка тренувалася для себе, до спортсменки на міжнародній сцені.",
@@ -26,23 +26,17 @@ const DATA={
   achEye:"🏆 Спортивні досягнення",achTitle:'Здобуто <b>на сцені</b>',
   achIntro:"Почала у 2014-му — бронза вже на дебюті. Після перерви повернулася сильнішою і виступаю у категорії Fit Model на турнірах Польщі та Італії.",
   titles:[{i:"🏆",t:"Абсолютна чемпіонка Польщі — Open Fit Model"},{i:"🥇",t:"Дворазова чемпіонка Masters"},{i:"🥈",t:"Срібло EuroMasters (Італія), Masters 35+ та 40+"},{i:"🏅",t:"TOP-5 Flex Weekend Pro Qualifier, Мілан"}],
-  timeline:[{y:"2014",ev:[{p:"Чемпіонат України (WBPF)",r:"🥉 Бронза — дебютний старт"}]},{y:"2025",ev:[{p:"NPC Poland",r:"🏆 Overall Open Fit Model · 2×🥇 Masters · 🥈 Open Class B"},{p:"EuroMasters (Італія)",r:"🥈 Masters 35+ · 🥈 Masters 40+"}]},{y:"2026",ev:[{p:"League of Champions Pro Qualifier",r:"2×🥇 Masters · 🥈 Open Class B"},{p:"Natural & Regional Qualifier",r:"Призові місця у Masters та Novice"},{p:"Flex Weekend Pro Qualifier (Мілан)",r:"🏅 TOP-5 Fit Model Open Class B"}]}],
   procEye:"🧭 Як проходить робота",procTitle:"Як проходить <b>онлайн-ведення</b>",
-  steps:[{"h": "Оплата й анкета", "p": "Після оплати онлайн-ведення заповнюєш стартову анкету."}, {"h": "Аналіз", "p": "Вивчаю цілі, досвід, графік і відповіді в анкеті."}, {"h": "Індивідуальний план", "p": "Готую тренування та рекомендації з харчування на 4 тижні."}, {"h": "Старт роботи", "p": "З узгодженої дати працюєш за планом із відповідною прогресією."}, {"h": "Щотижневий звіт", "p": "Аналізую прогрес і відповідаю на запитання."}, {"h": "Коригування й підсумок", "p": "За потреби коригую план; після 4 тижнів підбиваємо підсумки."}],
-  resTitle:"Прогрес у власному темпі",
-  results:["зменшення об’ємів","зниження ваги","підтягнуте тіло","краща форма сідниць і ніг","покращення постави","більше енергії","контроль харчування","менше набряків","дисципліна і режим","впевненість у собі"],
+  steps:[{"h": "Анкета й аналіз", "p": "Після оплати заповнюєш анкету, а я вивчаю твої цілі, досвід і графік."}, {"h": "Індивідуальний план", "p": "Готую тренування та рекомендації з харчування на 4 тижні."}, {"h": "Старт", "p": "З узгодженої дати працюєш за планом із відповідною прогресією."}, {"h": "Звіти й коригування", "p": "Щотижня аналізую прогрес, відповідаю на запитання й коригую план."}],
   whoEye:"🎯 Твої цілі",whoTitle:'Допоможу тобі <b>досягти бажаного</b>',
   goals:["схуднути","підтягнути тіло","покращити форму сідниць, ніг, спини та плечей","навчитися правильно харчуватися","повернути впевненість у собі","підготуватися до фотосесії, відпустки або змагань"],
-  valEye:"💜 Мої цінності",valTitle:'Підхід, у який я <b>вірю</b>',
-  values:[{t:"Дисципліна",p:"Саме регулярні дії створюють результат."},{t:"Здоров’я",p:"Форма не повинна будуватися ціною виснаження."},{t:"Стабільність",p:"Короткі ривки не дають довготривалого результату."},{t:"Любов до себе",p:"Зміни починаються з турботи про себе, а не з ненависті до тіла."},{t:"Тривалий результат",p:"Моя мета — навчити тебе зберігати форму, а не лише її досягти."}],
   servEye:"✨ Послуги",servTitle:'Обери свій <b>формат</b>',
   services:[{"title": "Консультація", "desc": "Визначимо цілі, розберемо активність, тренування, харчування та суплементацію. Відповім на запитання й дам подальший план дій. Персональні плани тренувань і харчування не входять.", "duration": "до 60 хв", "format": "Онлайн / офлайн", "prices": {"pl": 100, "uk": 1200, "en": 25}, "cta": "Записатися на консультацію", "feat": false}, {"title": "Персональне тренування", "desc": "Заняття відповідно до цілі й рівня: індивідуальні вправи й навантаження, постановка та контроль техніки, виправлення помилок і рекомендації на майбутнє.", "duration": "до 60 хв", "format": "Онлайн з будь-якої країни / офлайн у Вроцлаві", "prices": {"pl": 150, "uk": 1800, "en": 35}, "cta": "Записатися на тренування", "feat": false}, {"title": "Індивідуальне онлайн-ведення", "desc": "Персональна робота протягом 4 тижнів: програма тренувань, харчування, суплементація в межах компетенції тренера, щотижневий звіт і коригування за результатами. Персональні заняття оплачуються окремо.", "duration": "4 тижні", "format": "Онлайн", "prices": {"pl": 400, "uk": 4700, "en": 90}, "cta": "Почати онлайн-ведення", "feat": true}],
   galleryEye:"Змагання",galleryTitle:'Моменти <b>зі сцени</b>',gallery:["Перше місце на European Festival","Чемпіонка Poland Pro Qualifier","Чемпіонка NPC Poland","EuroMasters в Італії","Flex Weekend у Мілані","На сцені Flex Weekend","Нагородження Flex Weekend"],
-  payment:"Усі послуги оплачуються до початку роботи. Для консультації та тренування бронювання підтверджується після оплати; онлайн-ведення починається з узгодженої дати після анкети й підготовки плану.",
+  payment:"Усі послуги оплачуються наперед — деталі в розділі «Питання».",
   credEye:"🎓 Освіта та сертифікація",credTitle:'Знання, яким можна <b>довіряти</b>',
   credIntro:"Постійно вчуся, щоб давати не поради з інтернету, а перевірені знання.",
   creds:[{y:"2025",t:"Сертифікований фітнес-тренер",d:"Fitness Trainer — ExpertX"},{y:"2026",t:"Mini MBA",d:"Practical Nutrition & Health Coaching, Open European Academy of Economics & Politics (Прага)"},{y:"150 год",t:"Дієтологія та нутриціологія",d:"Basic Dietetics and Nutrition — раціональне харчування та корекція маси тіла"},{y:"",t:"Спеціалізації",d:"Спортивне харчування, психологія харчової поведінки, харчування жінок та дітей"}],
-  topics:["Спортивне харчування","Психологія харчової поведінки","Харчування жінок","Інтервальне голодування","Кето та без глютену","Робота зі щитоподібною залозою"],
   ctaTitle:"Почнемо з <b>розмови</b>?",ctaText:"Напиши мені, що саме тебе цікавить — обговоримо деталі та підберемо формат роботи.",ctaBtn:"Написати в Instagram",
   faqEye:"Питання",faqTitle:'Часті <b>запитання</b>',copy:"© 2026 Olena Kostetska · Wrocław",
   faq:[{"q": "Чи підійде новачкам?", "a": "Так. Формат роботи й навантаження підбираю з урахуванням цілі, рівня підготовки та графіка."}, {"q": "Як відбувається оплата?", "a": "Усі послуги оплачуються до початку роботи. Для консультації та тренування спочатку узгоджуємо час, надсилаю реквізити, а після оплати підтверджую бронювання. Для онлайн-ведення після оплати заповнюєш анкету; з узгодженої дати починаються 4 тижні роботи. PLN: польський переказ або BLIK; UAH: українська картка або рахунок; EUR: переказ на EUR-рахунок."}, {"q": "Чи входять персональні тренування в онлайн-ведення?", "a": "Ні. За бажанням їх можна оплатити окремо: 150 zł / 1 800 ₴ / 35 € за заняття."}, {"q": "Чи буде нова програма щотижня?", "a": "Не обов’язково. Наприклад, тренування A / B / C можуть повторюватися з відповідною прогресією. Коригую програму за потреби."}, {"q": "Чи можна тренуватися без залу?", "a": "Так. Обговоримо твої умови й доступне обладнання та підберемо відповідний формат."}],
@@ -52,8 +46,8 @@ const DATA={
   h1:'Twój progres —<br><i>krok po kroku</i> <b>razem</b>',
   herosub:"Jestem Olena, trenerka z Wrocławia. Mam 20 lat doświadczenia w sporcie i startuję na scenie międzynarodowej. Pomogę Ci zbudować realistyczny plan treningów i odżywiania bez skrajności.",
   cta1:"Napisz do mnie",cta2:"O mnie",badge:"na scenie od",
-  nav:{about:"O mnie",ach:"Osiągnięcia",process:"Jak pracuję",whom:"Dla kogo",values:"Wartości",services:"Usługi",creds:"Edukacja",faq:"Pytania",navcta:"Napisz do mnie"},
-  fabText:"Napisz",incEye:"📦 Co zawiera",incTitle:"Co zawierają <b>usługi</b>",includes:[{"t": "Konsultacja", "feat": false, "items": ["Ustalenie celów i analiza aktywności oraz treningów", "Omówienie żywienia i suplementacji", "Odpowiedzi na pytania, zalecenia i dalszy plan działania", "Bez indywidualnego planu treningów i żywienia"]}, {"t": "Trening personalny", "feat": false, "items": ["Trening dopasowany do celu i poziomu", "Dobór ćwiczeń oraz obciążenia", "Nauka i kontrola techniki, korekta błędów", "Zalecenia do dalszych treningów"]}, {"t": "Prowadzenie online · 4 tygodnie", "feat": true, "items": ["Indywidualny plan: ćwiczenia, serie, powtórzenia, obciążenie i progresja; liczba treningów dopasowana do celu, poziomu i grafiku", "Orientacyjna kaloryczność i makro, struktura posiłków, propozycje i zamienniki, żywienie przed i po treningu", "Analiza suplementacji i zalecenia w zakresie kompetencji trenerki", "Kontakt z trenerką, cotygodniowy raport, analiza postępów, odpowiedzi i korekty w razie potrzeby", "Treningi personalne nie są w cenie: 150 zł / 1 800 ₴ / 35 € za sesję"]}],
+  nav:{about:"O mnie",ach:"Osiągnięcia",process:"Jak pracuję",whom:"Dla kogo",services:"Usługi",creds:"Edukacja",faq:"Pytania",navcta:"Napisz do mnie"},
+  fabText:"Napisz",incBtn:"Co zawiera",includes:[{"t": "Konsultacja", "feat": false, "items": ["Ustalenie celów i analiza aktywności oraz treningów", "Omówienie żywienia i suplementacji", "Odpowiedzi na pytania, zalecenia i dalszy plan działania", "Bez indywidualnego planu treningów i żywienia"]}, {"t": "Trening personalny", "feat": false, "items": ["Trening dopasowany do celu i poziomu", "Dobór ćwiczeń oraz obciążenia", "Nauka i kontrola techniki, korekta błędów", "Zalecenia do dalszych treningów"]}, {"t": "Prowadzenie online · 4 tygodnie", "feat": true, "items": ["Indywidualny plan: ćwiczenia, serie, powtórzenia, obciążenie i progresja; liczba treningów dopasowana do celu, poziomu i grafiku", "Orientacyjna kaloryczność i makro, struktura posiłków, propozycje i zamienniki, żywienie przed i po treningu", "Analiza suplementacji i zalecenia w zakresie kompetencji trenerki", "Kontakt z trenerką, cotygodniowy raport, analiza postępów, odpowiedzi i korekty w razie potrzeby", "Treningi personalne nie są w cenie: 150 zł / 1 800 ₴ / 35 € za sesję"]}],
   mq:["20+ lat doświadczenia","Absolutna mistrzyni Polski","Scena międzynarodowa","Dietetyk · nutrycjonista","Mini MBA","Indywidualne podejście"],
   aboutEye:"O mnie",aboutTitle:'Fitness to <b>moja droga</b>',
   aboutP1:"Fitness jest ze mną ponad 20 lat. Przeszłam drogę od dziewczyny trenującej dla siebie do zawodniczki na scenie międzynarodowej.",
@@ -64,23 +58,17 @@ const DATA={
   achIntro:"Zaczęłam w 2014 — brąz już na debiucie. Po przerwie wróciłam silniejsza i startuję w kategorii Fit Model w Polsce i we Włoszech.",
   
   titles:[{i:"🏆",t:"Absolutna mistrzyni Polski — Open Fit Model"},{i:"🥇",t:"Dwukrotna mistrzyni Masters"},{i:"🥈",t:"Srebro EuroMasters (Włochy), Masters 35+ i 40+"},{i:"🏅",t:"TOP-5 Flex Weekend Pro Qualifier, Mediolan"}],
-  timeline:[{y:"2014",ev:[{p:"Mistrzostwa Ukrainy (WBPF)",r:"🥉 Brąz — debiut"}]},{y:"2025",ev:[{p:"NPC Poland",r:"🏆 Overall Open Fit Model · 2×🥇 Masters · 🥈 Open Class B"},{p:"EuroMasters (Włochy)",r:"🥈 Masters 35+ · 🥈 Masters 40+"}]},{y:"2026",ev:[{p:"League of Champions Pro Qualifier",r:"2×🥇 Masters · 🥈 Open Class B"},{p:"Natural & Regional Qualifier",r:"Miejsca medalowe w Masters i Novice"},{p:"Flex Weekend Pro Qualifier (Mediolan)",r:"🏅 TOP-5 Fit Model Open Class B"}]}],
   procEye:"🧭 Jak wygląda współpraca",procTitle:"Jak przebiega <b>prowadzenie online</b>",
-  steps:[{"h": "Płatność i ankieta", "p": "Po opłaceniu prowadzenia online wypełniasz ankietę startową."}, {"h": "Analiza", "p": "Poznaję Twój cel, doświadczenie, plan dnia i odpowiedzi w ankiecie."}, {"h": "Plan indywidualny", "p": "Przygotowuję treningi i zalecenia żywieniowe na 4 tygodnie."}, {"h": "Start", "p": "Od ustalonej daty pracujesz według planu z odpowiednią progresją."}, {"h": "Cotygodniowy raport", "p": "Analizuję postępy i odpowiadam na pytania."}, {"h": "Korekty i podsumowanie", "p": "W razie potrzeby koryguję plan; po 4 tygodniach podsumowujemy pracę."}],
-  resTitle:"Postępy we własnym tempie",
-  results:["zmniejszenie obwodów","spadek wagi","wymodelowane ciało","lepsza forma pośladków i nóg","lepsza postawa","więcej energii","kontrola odżywiania","mniej obrzęków","dyscyplina i rytm","pewność siebie"],
+  steps:[{"h": "Ankieta i analiza", "p": "Po opłaceniu wypełniasz ankietę, a ja analizuję Twój cel, doświadczenie i plan dnia."}, {"h": "Plan indywidualny", "p": "Przygotowuję treningi i zalecenia żywieniowe na 4 tygodnie."}, {"h": "Start", "p": "Od ustalonej daty pracujesz według planu z odpowiednią progresją."}, {"h": "Raporty i korekty", "p": "Co tydzień analizuję postępy, odpowiadam na pytania i koryguję plan."}],
   whoEye:"🎯 Dla kogo",whoTitle:'Z kim <b>pracuję</b>',
   goals:["schudnąć","wymodelować ciało","poprawić formę pośladków, nóg, pleców i ramion","nauczyć się prawidłowo odżywiać","odzyskać pewność siebie","przygotować się do sesji, wakacji lub zawodów"],
-  valEye:"💜 Moje wartości",valTitle:'Podejście, w które <b>wierzę</b>',
-  values:[{t:"Dyscyplina",p:"To regularne działania tworzą wynik."},{t:"Zdrowie",p:"Forma nie może powstawać kosztem wyczerpania."},{t:"Stabilność",p:"Krótkie zrywy nie dają trwałego efektu."},{t:"Miłość do siebie",p:"Zmiany zaczynają się od troski o siebie, nie od nienawiści do ciała."},{t:"Trwały efekt",p:"Moim celem jest nauczyć Cię utrzymać formę, nie tylko ją osiągnąć."}],
   servEye:"✨ Usługi",servTitle:'Wybierz swój <b>format</b>',
   services:[{"title": "Konsultacja", "desc": "Ustalimy cele, przeanalizujemy aktywność, treningi, odżywianie i suplementację. Odpowiem na pytania i zaproponuję dalsze kroki. Indywidualny plan treningowy i żywieniowy nie są w cenie.", "duration": "do 60 min", "format": "Online / stacjonarnie", "prices": {"pl": 100, "uk": 1200, "en": 25}, "cta": "Umów konsultację", "feat": false}, {"title": "Trening personalny", "desc": "Trening dopasowany do celu i poziomu: dobór ćwiczeń i obciążenia, nauka i kontrola techniki, korekta błędów oraz zalecenia na kolejne treningi.", "duration": "do 60 min", "format": "Online z dowolnego kraju / stacjonarnie we Wrocławiu", "prices": {"pl": 150, "uk": 1800, "en": 35}, "cta": "Umów trening", "feat": false}, {"title": "Indywidualne prowadzenie online", "desc": "4 tygodnie indywidualnej współpracy: plan treningów, żywienie, suplementacja w zakresie kompetencji trenerki, cotygodniowy raport i korekty według postępów. Treningi personalne są płatne osobno.", "duration": "4 tygodnie", "format": "Online", "prices": {"pl": 400, "uk": 4700, "en": 90}, "cta": "Rozpocznij prowadzenie online", "feat": true}],
   galleryEye:"Zawody",galleryTitle:'Chwile <b>ze sceny</b>',gallery:["Pierwsze miejsce na European Festival","Mistrzyni Poland Pro Qualifier","Mistrzyni NPC Poland","EuroMasters we Włoszech","Flex Weekend w Mediolanie","Na scenie Flex Weekend","Dekoracja na Flex Weekend"],
-  payment:"Wszystkie usługi opłaca się przed rozpoczęciem. Rezerwacja konsultacji i treningu jest potwierdzana po wpłacie; prowadzenie online zaczyna się w ustalonym terminie po ankiecie i przygotowaniu planu.",
+  payment:"Wszystkie usługi są płatne z góry — szczegóły w sekcji „Pytania”.",
   credEye:"🎓 Edukacja i certyfikaty",credTitle:'Wiedza, której możesz <b>zaufać</b>',
   credIntro:"Ciągle się uczę, żeby dawać sprawdzoną wiedzę, a nie porady z internetu.",
   creds:[{y:"2025",t:"Certyfikowana trenerka fitness",d:"Fitness Trainer — ExpertX"},{y:"2026",t:"Mini MBA",d:"Practical Nutrition & Health Coaching, Open European Academy of Economics & Politics (Praga)"},{y:"150 h",t:"Dietetyka i nutrycjologia",d:"Basic Dietetics and Nutrition — racjonalne odżywianie i korekta masy ciała"},{y:"",t:"Specjalizacje",d:"Żywienie sportowe, psychologia odżywiania, żywienie kobiet i dzieci"}],
-  topics:["Żywienie sportowe","Psychologia odżywiania","Żywienie kobiet","Post przerywany","Keto i bez glutenu","Praca z tarczycą"],
   ctaTitle:"Zacznijmy od <b>rozmowy</b>",ctaText:"Napisz mi, co Cię interesuje. Omówimy szczegóły i dobierzemy formę współpracy.",ctaBtn:"Napisz na Instagramie",
   faqEye:"Pytania",faqTitle:'Najczęstsze <b>pytania</b>',copy:"© 2026 Olena Kostetska · Wrocław",
   faq:[{"q": "Czy to odpowiednie dla początkujących?", "a": "Tak. Formę współpracy i obciążenia dopasowuję do celu, poziomu i grafiku."}, {"q": "Jak wygląda płatność?", "a": "Wszystkie usługi opłaca się przed rozpoczęciem. Przy konsultacji i treningu najpierw ustalamy termin, przesyłam dane do płatności, a po opłaceniu potwierdzam rezerwację. Przy prowadzeniu online po opłaceniu wypełniasz ankietę; 4 tygodnie zaczynają się od ustalonej daty. PLN: polski przelew lub BLIK; UAH: ukraińska karta lub konto; EUR: przelew na konto EUR."}, {"q": "Czy treningi personalne są w cenie prowadzenia?", "a": "Nie. Można je dokupić osobno: 150 zł / 1 800 ₴ / 35 € za sesję."}, {"q": "Czy co tydzień dostanę nowy plan?", "a": "Nie zawsze. Treningi A / B / C mogą się powtarzać z odpowiednią progresją. Plan zmieniam, gdy jest taka potrzeba."}, {"q": "Czy mogę ćwiczyć bez siłowni?", "a": "Tak. Omówimy Twoje warunki i dostępny sprzęt, a następnie dobierzemy format."}],
@@ -90,8 +78,8 @@ const DATA={
   h1:'Your progress —<br><i>step by step</i> <b>together</b>',
   herosub:"I’m Olena, a coach based in Wrocław with 20 years in sport and international competition experience. I’ll help you build a realistic training and nutrition routine without extremes.",
   cta1:"Message me",cta2:"About me",badge:"on stage since",
-  nav:{about:"About",ach:"Results",process:"How I work",whom:"For whom",values:"Values",services:"Services",creds:"Education",faq:"FAQ",navcta:"Message me"},
-  fabText:"Message",incEye:"📦 What is included",incTitle:"What each <b>service includes</b>",includes:[{"t": "Consultation", "feat": false, "items": ["Goal setting and review of activity and training", "Nutrition review and supplement discussion", "Questions, recommendations and next steps", "Personal training and meal plans are not included"]}, {"t": "Personal training", "feat": false, "items": ["Session matched to your goal and fitness level", "Exercise and load selection", "Technique coaching, checks and corrections", "Guidance for your next workouts"]}, {"t": "Online coaching · 4 weeks", "feat": true, "items": ["Personal plan: exercises, sets, reps, load and progression; workout frequency matched to your goals, level and schedule", "Estimated calories and macros, meal structure, options and swaps, pre- and post-workout nutrition", "Review of supplements and guidance within the coach’s scope", "Coach contact, weekly check-ins, progress review, answers and adjustments when needed", "Personal sessions are separate: 150 zł / 1 800 ₴ / 35 € per session"]}],
+  nav:{about:"About",ach:"Results",process:"How I work",whom:"For whom",services:"Services",creds:"Education",faq:"FAQ",navcta:"Message me"},
+  fabText:"Message",incBtn:"What’s included",includes:[{"t": "Consultation", "feat": false, "items": ["Goal setting and review of activity and training", "Nutrition review and supplement discussion", "Questions, recommendations and next steps", "Personal training and meal plans are not included"]}, {"t": "Personal training", "feat": false, "items": ["Session matched to your goal and fitness level", "Exercise and load selection", "Technique coaching, checks and corrections", "Guidance for your next workouts"]}, {"t": "Online coaching · 4 weeks", "feat": true, "items": ["Personal plan: exercises, sets, reps, load and progression; workout frequency matched to your goals, level and schedule", "Estimated calories and macros, meal structure, options and swaps, pre- and post-workout nutrition", "Review of supplements and guidance within the coach’s scope", "Coach contact, weekly check-ins, progress review, answers and adjustments when needed", "Personal sessions are separate: 150 zł / 1 800 ₴ / 35 € per session"]}],
   mq:["20+ years experience","Overall Champion of Poland","International stage","Dietitian · nutritionist","Mini MBA","Individual approach"],
   aboutEye:"About",aboutTitle:'Fitness is <b>my path</b>',
   aboutP1:"Fitness has been with me for over 20 years. I went from a girl training for herself to an athlete on the international stage.",
@@ -102,23 +90,17 @@ const DATA={
   achIntro:"I started in 2014 — bronze on my debut. After a break I came back stronger and compete in Fit Model across Poland and Italy.",
   
   titles:[{i:"🏆",t:"Overall Champion of Poland — Open Fit Model"},{i:"🥇",t:"Two-time Masters Champion"},{i:"🥈",t:"Silver at EuroMasters (Italy), Masters 35+ & 40+"},{i:"🏅",t:"TOP-5 Flex Weekend Pro Qualifier, Milan"}],
-  timeline:[{y:"2014",ev:[{p:"Ukraine Championship (WBPF)",r:"🥉 Bronze — debut start"}]},{y:"2025",ev:[{p:"NPC Poland",r:"🏆 Overall Open Fit Model · 2×🥇 Masters · 🥈 Open Class B"},{p:"EuroMasters (Italy)",r:"🥈 Masters 35+ · 🥈 Masters 40+"}]},{y:"2026",ev:[{p:"League of Champions Pro Qualifier",r:"2×🥇 Masters · 🥈 Open Class B"},{p:"Natural & Regional Qualifier",r:"Podium places in Masters and Novice"},{p:"Flex Weekend Pro Qualifier (Milan)",r:"🏅 TOP-5 Fit Model Open Class B"}]}],
   procEye:"🧭 How working together works",procTitle:"How <b>online coaching works</b>",
-  steps:[{"h": "Payment and questionnaire", "p": "After paying for online coaching, you complete a starting questionnaire."}, {"h": "Review", "p": "I review your goals, experience, schedule and answers."}, {"h": "Personal plan", "p": "I prepare four weeks of training and nutrition guidance."}, {"h": "Start", "p": "From the agreed date, you follow the plan with appropriate progression."}, {"h": "Weekly check-in", "p": "I review progress and answer your questions."}, {"h": "Adjust and recap", "p": "I adjust the plan when needed; after four weeks we review the outcome."}],
-  resTitle:"Progress at your own pace",
-  results:["reduced volume","weight loss","a more toned body","better glutes and legs","better posture","more energy","food control","less bloating","discipline and routine","more confidence"],
+  steps:[{"h": "Questionnaire & review", "p": "After payment you fill in a questionnaire, and I review your goals, experience and schedule."}, {"h": "Personal plan", "p": "I prepare four weeks of training and nutrition guidance."}, {"h": "Start", "p": "From the agreed date, you follow the plan with appropriate progression."}, {"h": "Check-ins & adjustments", "p": "Every week I review your progress, answer questions and adjust the plan."}],
   whoEye:"🎯 Who it's for",whoTitle:'Who I <b>work with</b>',
   goals:["lose weight","tone the body","improve glutes, legs, back and shoulders","learn to eat properly","regain confidence","prep for a photoshoot, holiday or competition"],
-  valEye:"💜 My values",valTitle:'The approach I <b>believe in</b>',
-  values:[{t:"Discipline",p:"Regular actions are what create results."},{t:"Health",p:"Shape should never be built at the cost of exhaustion."},{t:"Stability",p:"Short bursts don't give a lasting result."},{t:"Self-love",p:"Change starts with caring for yourself, not hating your body."},{t:"Lasting result",p:"My goal is to teach you to keep your shape, not just reach it."}],
   servEye:"✨ Services",servTitle:'Choose your <b>format</b>',
   services:[{"title": "Consultation", "desc": "We define your goals, review activity, training, nutrition and supplements, answer your questions and map next steps. A personal training program and meal plan are not included.", "duration": "up to 60 min", "format": "Online / in person", "prices": {"pl": 100, "uk": 1200, "en": 25}, "cta": "Book a consultation", "feat": false}, {"title": "Personal training", "desc": "A session matched to your goal and level: exercises and load selection, technique coaching and correction, plus guidance for future training.", "duration": "up to 60 min", "format": "Online from anywhere / in person in Wrocław", "prices": {"pl": 150, "uk": 1800, "en": 35}, "cta": "Book personal training", "feat": false}, {"title": "Individual online coaching", "desc": "Four weeks of personal support: training plan, nutrition, supplements within a coach’s scope, weekly check-ins and adjustments based on progress. Personal sessions cost extra.", "duration": "4 weeks", "format": "Online", "prices": {"pl": 400, "uk": 4700, "en": 90}, "cta": "Start online coaching", "feat": true}],
   galleryEye:"Competitions",galleryTitle:'Moments <b>on stage</b>',gallery:["First place at the European Festival","Poland Pro Qualifier Champion","NPC Poland Champion","EuroMasters in Italy","Flex Weekend in Milan","On stage at Flex Weekend","Flex Weekend awards"],
-  payment:"All services are paid before work begins. Consultation and training bookings are confirmed after payment; online coaching starts on the agreed date after the questionnaire and plan preparation.",
+  payment:"All services are paid in advance — details in the FAQ.",
   credEye:"🎓 Education & certification",credTitle:'Knowledge you can <b>trust</b>',
   credIntro:"I keep learning — so you get proven knowledge, not internet advice.",
   creds:[{y:"2025",t:"Certified Fitness Trainer",d:"Fitness Trainer — ExpertX"},{y:"2026",t:"Mini MBA",d:"Practical Nutrition & Health Coaching, Open European Academy of Economics & Politics (Prague)"},{y:"150 h",t:"Dietetics & Nutrition",d:"Basic Dietetics and Nutrition — rational eating and weight adjustment"},{y:"",t:"Specializations",d:"Sports nutrition, eating psychology, nutrition for women and children"}],
-  topics:["Sports nutrition","Eating psychology","Women's nutrition","Intermittent fasting","Keto & gluten-free","Thyroid support"],
   ctaTitle:"Let’s start with <b>a conversation</b>",ctaText:"Message me what you’re interested in. We’ll discuss the details and choose a format that fits your goals.",ctaBtn:"Message me on Instagram",
   faqEye:"Questions",faqTitle:'Frequently <b>asked</b>',copy:"© 2026 Olena Kostetska · Wrocław",
   faq:[{"q": "Is this suitable for beginners?", "a": "Yes. We match the format and training load to your goals, level and schedule."}, {"q": "How does payment work?", "a": "All services are paid before work begins. For a consultation or session, we agree a date and time, I send payment details, and your booking is confirmed after payment. For online coaching, you complete the questionnaire after payment; the four weeks begin on the agreed date. PLN: Polish bank transfer or BLIK; UAH: Ukrainian card or account; EUR: transfer to a EUR account."}, {"q": "Are personal sessions included in online coaching?", "a": "No. They can be booked separately for 150 zł / 1 800 ₴ / 35 € per session."}, {"q": "Will I get a new program every week?", "a": "Only if needed. Workouts A / B / C can repeat with appropriate progression. I adjust the plan based on your progress."}, {"q": "Can I train without a gym?", "a": "Yes. We can discuss your space and equipment and choose a suitable format."}],
@@ -246,15 +228,7 @@ section.block{padding-top:110px;padding-bottom:110px;position:relative}
 /* ACHIEVEMENTS */
 .ach{background:var(--bg-soft)}
 .ach-intro{max-width:640px;color:var(--ink-2);font-size:17px;line-height:1.65;margin-bottom:48px}
-.timeline{display:flex;flex-direction:column}
-.tl-row{display:grid;grid-template-columns:110px 1fr;gap:32px;padding:28px 0;border-top:1px solid var(--line-2)}
-.tl-row:last-child{border-bottom:1px solid var(--line-2)}
-.tl-year{font-family:var(--display);font-weight:700;font-size:26px;color:var(--accent);line-height:1;letter-spacing:-.01em}
-.tl-events{display:flex;flex-direction:column;gap:14px}
-.tl-ev .place{font-weight:600;font-size:16px;color:var(--ink);margin-bottom:2px}
-.tl-ev .res{color:var(--ink-2);font-size:15px;line-height:1.5}
-.dot{display:none}
-.titles{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin-bottom:52px}
+.titles{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}
 .title-chip{display:flex;align-items:center;gap:14px;background:var(--white);border:1px solid var(--line);border-radius:14px;padding:18px 20px}
 .title-chip .ic{font-size:22px;flex-shrink:0}
 .title-chip span{font-weight:500;font-size:15px;color:var(--ink);line-height:1.35}
@@ -293,32 +267,18 @@ section.block{padding-top:110px;padding-bottom:110px;position:relative}
 @media(hover:none){.g-nav{display:none}.gallery{cursor:auto}.lb-prev,.lb-next{display:none}}
 
 /* PROCESS */
-.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-top:44px}
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;margin-top:44px}
 .step{background:var(--white);border:1px solid var(--line);border-radius:18px;padding:28px 26px;transition:border-color .25s,box-shadow .35s,transform .55s var(--spring)}
 .step:hover{border-color:var(--line-2);box-shadow:0 14px 34px rgba(26,21,35,.08);transform:translateY(-4px)}
 .step .sn{font-family:var(--display);font-weight:700;font-size:20px;color:var(--accent);margin-bottom:14px}
 .step h4{font-weight:600;font-size:18px;color:var(--ink);margin-bottom:8px;letter-spacing:-.01em}
 .step p{color:var(--ink-2);font-size:15px;line-height:1.55}
 
-.results{margin-top:44px;background:var(--white);border:1px solid var(--line);border-radius:20px;padding:38px 36px}
-.results h4{font-family:var(--display);font-weight:600;font-size:22px;color:var(--ink);margin-bottom:22px;letter-spacing:-.02em}
-.res-grid{display:flex;flex-wrap:wrap;gap:10px}
-.res-pill{display:flex;align-items:center;gap:8px;font-size:15px;color:var(--ink);background:var(--bg-soft);border-radius:980px;padding:9px 16px}
-.res-pill .chk{color:var(--accent);flex-shrink:0}
-
 .goals{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:40px}
 .goal{display:flex;align-items:flex-start;gap:12px;background:var(--white);border:1px solid var(--line);border-radius:16px;padding:22px;transition:border-color .25s,box-shadow .35s,transform .55s var(--spring)}
 .goal:hover{border-color:var(--line-2);transform:translateY(-3px)}
 .goal .chk{color:var(--accent);flex-shrink:0;margin-top:1px}
 .goal span{font-size:16px;line-height:1.45;color:var(--ink)}
-
-/* VALUES */
-.values{display:grid;grid-template-columns:repeat(5,1fr);gap:14px;margin-top:44px}
-.value{background:var(--white);border:1px solid var(--line);border-radius:16px;padding:26px 20px;transition:border-color .25s,box-shadow .35s,transform .55s var(--spring)}
-.value:hover{border-color:var(--line-2);box-shadow:0 14px 34px rgba(26,21,35,.08);transform:translateY(-4px)}
-.value .vn{font-family:var(--display);font-weight:700;font-size:18px;color:var(--accent);margin-bottom:12px}
-.value h4{font-weight:600;font-size:17px;color:var(--ink);margin-bottom:8px;letter-spacing:-.01em}
-.value p{color:var(--ink-2);font-size:14px;line-height:1.5}
 
 /* SERVICES */
 .cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:44px;align-items:start}
@@ -336,7 +296,17 @@ section.block{padding-top:110px;padding-bottom:110px;position:relative}
 .price-alt{font-size:13px;color:var(--ink-3);margin-bottom:20px;font-weight:500}
 .card .btn{width:100%;justify-content:center}
 .service-details{display:flex;flex-direction:column;gap:6px;color:var(--ink-2);font-size:14px;line-height:1.45;margin:18px 0 22px;min-height:58px}
-.payment-note{color:var(--ink-2);line-height:1.7;margin-top:28px;max-width:850px}
+.payment-note{color:var(--ink-2);line-height:1.6;margin-top:24px;font-size:15px}
+/* «Що входить» усередині картки послуги */
+.inc-more{margin:-6px 0 20px;border-top:1px solid var(--line);padding-top:14px}
+.inc-more summary{list-style:none;cursor:pointer;display:flex;align-items:center;justify-content:space-between;font-weight:600;font-size:15px;color:var(--accent);user-select:none}
+.inc-more summary::-webkit-details-marker{display:none}
+.inc-more summary svg{transition:transform .5s var(--spring)}
+.inc-more[open] summary svg{transform:rotate(180deg)}
+.inc-more ul{list-style:none;display:flex;flex-direction:column;gap:10px;margin-top:14px;animation:incIn .5s var(--spring)}
+.inc-more li{display:flex;align-items:flex-start;gap:10px;font-size:14px;line-height:1.45;color:var(--ink-2)}
+.inc-more li .chk{color:var(--accent);flex-shrink:0;margin-top:1px}
+@keyframes incIn{from{opacity:0;transform:translateY(-6px)}}
 
 /* CREDENTIALS */
 .creds{display:grid;grid-template-columns:repeat(2,1fr);gap:16px;margin-top:40px}
@@ -345,8 +315,6 @@ section.block{padding-top:110px;padding-bottom:110px;position:relative}
 .cred h4{font-weight:600;font-size:17px;color:var(--ink);margin-bottom:6px;line-height:1.3}
 .cred p{color:var(--ink-2);font-size:14px;line-height:1.55}
 .cred .yr{font-weight:600;font-size:13px;color:var(--accent);margin-top:10px;display:block}
-.topics{margin-top:28px;display:flex;flex-wrap:wrap;gap:8px}
-.topic{font-size:14px;color:var(--ink-2);border:1px solid var(--line-2);border-radius:980px;padding:8px 16px}
 
 .cta-band{margin:0 24px;border-radius:28px;background:var(--accent);padding:80px 50px;text-align:center;position:relative;overflow:hidden}
 .cta-band h2{font-family:var(--display);font-weight:600;font-size:clamp(30px,4vw,44px);line-height:1.1;margin-bottom:16px;color:#fff;letter-spacing:-.02em}
@@ -387,30 +355,18 @@ footer{padding:70px 0 max(44px,calc(env(safe-area-inset-bottom) + 20px));border-
 .step .si{width:42px;height:42px;border-radius:12px;background:var(--accent-soft);display:flex;align-items:center;justify-content:center;flex-shrink:0;font-size:20px;line-height:1}
 .step .snum{font-family:var(--display);font-weight:700;font-size:18px;color:var(--ink-3)}
 
-/* INCLUDES / "что входит" */
-.includes{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:44px}
-.inc{background:var(--white);border:1px solid var(--line);border-radius:20px;padding:30px 28px}
-.inc.featured{border-color:var(--accent);border-width:1.5px}
-.inc h4{font-family:var(--display);font-weight:600;font-size:22px;color:var(--ink);margin-bottom:20px;letter-spacing:-.02em;display:flex;align-items:center;gap:10px}
-.inc ul{list-style:none;display:flex;flex-direction:column;gap:12px}
-.inc li{display:flex;align-items:flex-start;gap:11px;font-size:15px;line-height:1.45;color:var(--ink-2)}
-.inc li .chk{color:var(--accent);flex-shrink:0;margin-top:2px}
-
 /* REVEAL on scroll */
 .reveal{opacity:0;transform:translateY(36px) scale(.985);transition:opacity .8s var(--ease),transform 1s var(--spring)}
 .reveal.in{opacity:1;transform:none}
 @media(prefers-reduced-motion:reduce){.reveal{opacity:1;transform:none;transition:none}*{transition-duration:.01ms!important}.marquee-track{animation:none}}
 
-@media(max-width:980px){.nav-menu{display:none}}
+@media(max-width:980px){.nav-menu{display:none}.steps{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:880px){
   .burger{display:block}.nav-cta{display:none}.mobile-menu{display:flex}
   .hero{padding-top:116px}
   .hero .wrap{grid-template-columns:1fr;gap:48px}
   .about{grid-template-columns:1fr;gap:36px}
-  .goals,.cards,.creds,.titles,.steps,.includes{grid-template-columns:1fr}
-  .values{grid-template-columns:repeat(2,1fr)}
-  .tl-row{grid-template-columns:60px 1fr;gap:16px}
-  .tl-year{font-size:21px}
+  .goals,.cards,.creds,.titles,.steps{grid-template-columns:1fr}
   .sec-title{max-width:none}
   section.block{padding-top:80px;padding-bottom:80px}
   .gallery figure{height:380px;max-width:calc(100vw - 64px)}
@@ -419,8 +375,7 @@ footer{padding:70px 0 max(44px,calc(env(safe-area-inset-bottom) + 20px));border-
 @media(max-width:520px){
   .wrap{padding-left:max(20px,env(safe-area-inset-left));padding-right:max(20px,env(safe-area-inset-right))}
   .cta-band{margin:0 16px;padding:56px 24px}
-  .card,.inc{padding:26px 22px}
-  .results{padding:28px 22px}
+  .card{padding:26px 22px}
   }
 
 
@@ -428,7 +383,7 @@ footer{padding:70px 0 max(44px,calc(env(safe-area-inset-bottom) + 20px));border-
 
 // ───────────────────────── 3. КОД ─────────────────────────
 const LANGS = ['uk', 'pl', 'en']
-const STEP_ICONS = ['👋', '📋', '🎯', '📝', '📈', '⚙️']
+const STEP_ICONS = ['📋', '🎯', '🚀', '📈']
 
 // render content strings that may contain <b>/<i>/<br>
 function Rich({ html, as = 'span', className, ...rest }) {
@@ -633,7 +588,7 @@ export default function App() {
   ]
   const mobileLinks = [
     ['about', '#about'], ['ach', '#ach'], ['process', '#process'], ['whom', '#whom'],
-    ['values', '#values'], ['services', '#services'], ['creds', '#creds'], ['faq', '#faq'],
+    ['services', '#services'], ['creds', '#creds'], ['faq', '#faq'],
   ]
 
   return (
@@ -702,6 +657,10 @@ export default function App() {
               <p>{service.desc}</p>
               <div className="price-row"><Price prices={service.prices} lang={lang} /></div>
               <div className="service-details"><span>{service.duration}</span><span>{service.format}</span></div>
+              <details className="inc-more">
+                <summary>{d.incBtn}<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round"><path d="M6 9l6 6 6-6" /></svg></summary>
+                <ul>{d.includes[i].items.map((it, j) => (<li key={j}><Check size={16} /><span>{it}</span></li>))}</ul>
+              </details>
               <a href={`${CONFIG.whatsappUrl}?text=${encodeURIComponent(service.cta)}`} target="_blank" rel="noopener noreferrer" className={`btn ${service.feat ? 'btn-primary' : 'btn-ghost'}`}>{service.cta}</a>
             </div>
           ))}
@@ -737,18 +696,6 @@ export default function App() {
               <div className="title-chip" key={i}><span className="ic">{t.i}</span><span>{t.t}</span></div>
             ))}
           </div>
-          <div className="timeline">
-            {d.timeline.map((row, i) => (
-              <div className="tl-row" key={i}>
-                <div className="tl-year">{row.y}</div>
-                <div className="tl-events">
-                  {row.ev.map((e, j) => (
-                    <div className="tl-ev" key={j}><div className="dot" /><div><div className="place">{e.p}</div><div className="res">{e.r}</div></div></div>
-                  ))}
-                </div>
-              </div>
-            ))}
-          </div>
           <Gallery title={d.galleryTitle} eyebrow={d.galleryEye} captions={d.gallery} lang={lang} />
         </div>
       </section>
@@ -764,12 +711,6 @@ export default function App() {
             </div>
           ))}
         </div>
-        <div className="results">
-          <h4>{d.resTitle}</h4>
-          <div className="res-grid">
-            {d.results.map((r, i) => (<div className="res-pill" key={i}><Check size={18} /><span>{r}</span></div>))}
-          </div>
-        </div>
       </section>
 
       <section className="block wrap" id="whom">
@@ -777,29 +718,6 @@ export default function App() {
         <Rich as="h2" className="sec-title" html={d.whoTitle} />
         <div className="goals">
           {d.goals.map((g, i) => (<div className="goal" key={i}><Check /><span>{g}</span></div>))}
-        </div>
-      </section>
-
-      <section className="block wrap" id="values">
-        <div className="sec-head"><div className="sec-eyebrow" style={{ margin: 0 }}>{d.valEye}</div></div>
-        <Rich as="h2" className="sec-title" html={d.valTitle} />
-        <div className="values">
-          {d.values.map((v, i) => (
-            <div className="value" key={i}><div className="vn">0{i + 1}</div><h4>{v.t}</h4><p>{v.p}</p></div>
-          ))}
-        </div>
-      </section>
-
-      <section className="block wrap" id="includes">
-        <div className="sec-head"><div className="sec-eyebrow" style={{ margin: 0 }}>{d.incEye}</div></div>
-        <Rich as="h2" className="sec-title" html={d.incTitle} />
-        <div className="includes">
-          {d.includes.map((x, i) => (
-            <div className={`inc ${x.feat ? 'featured' : ''}`} key={i}>
-              <h4>{x.t}</h4>
-              <ul>{x.items.map((it, j) => (<li key={j}><Check size={18} /><span>{it}</span></li>))}</ul>
-            </div>
-          ))}
         </div>
       </section>
 
@@ -814,9 +732,6 @@ export default function App() {
               <div><h4>{c.t}</h4><p>{c.d}</p>{c.y && <span className="yr">{c.y}</span>}</div>
             </div>
           ))}
-        </div>
-        <div className="topics">
-          {d.topics.map((t, i) => (<span className="topic" key={i}>{t}</span>))}
         </div>
       </section>
 
